@@ -45,17 +45,17 @@ syntax definitions.
 
 The following is an example of a `.schedule` file.
 
-  # Imaginary Bus Schedule
-  :set route Candy Land Route
-  :set stops Gumdrop Forrest > Chocolate River > Candy Mountain
-  :set days Monday,Tuesday,Wednesday,Thursday,Friday
-  # these times depart from the Gumdrop Forest, go to the Chocolate River, 
-  # arrive at Candy Mountain, and then return to the Gumdrop Forest
-  9:00 > 9:20 > 9:30 > 9:50
-  :set days Saturday,Sunday,Holiday
-  # these times depart from the Gumdrop Forest, make a special stop at the Caremel Lake,
-  # go to the Chocolate River, arrive at Candy Mountain, and then return to the Gumdrop Forest
-  10:00 > Caremel Lake - 10:10 > 10:20 > 10:30 > 10:50
-  :set route McDonalds World : Burgers > Fries > Salads
-  :set days All
-  11:00 > 11:10 > 11:20 > 11:30 > 11:40 > 11:50 > 12:00P
+    # Imaginary Bus Schedule
+    :set route Candy Land Route
+    :set stops Gumdrop Forrest > Chocolate River > Candy Mountain
+    :set days Monday,Tuesday,Wednesday,Thursday,Friday
+    # these times depart from the Gumdrop Forest, go to the Chocolate River, 
+    # arrive at Candy Mountain, and then return to the Gumdrop Forest
+    9:00 > 9:20 > 9:30 > 9:50
+    :set days Saturday,Sunday,Holiday
+    # these times depart from the Gumdrop Forest, make a special stop at the Caremel Lake,
+    # go to the Chocolate River, arrive at Candy Mountain, and then return to the Gumdrop Forest
+    10:00 > Caremel Lake - 10:10 > 10:20 > 10:30 > 10:50
+    :set route McDonalds World : Burgers > Fries > Salads
+    :set days All
+    11:00 > 11:10 > 11:20 > 11:30 > 11:40 > 11:50 > 12:00P
