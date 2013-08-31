@@ -151,36 +151,62 @@ def figure_out_route(string)
 end
 
 def print_data()
-    puts "{ \"departures\" : #{@departure_times}, \"arrivals\" : #{@arrival_times} }"
+    data_dict = {
+        :route_based => @routes,
+        :time_based => {
+            :departures => @departure_times,
+            :arrivals => @arrival_times
+        }
+    }
+    puts "#{data_dict}"
 end
 
-def read_input(string)
-    raw_input = string.strip
-    if string.start_with? ":set" then
-        input = raw_input.strip_prefix(":set").strip
-        if input.start_with? "route" then
-            parts = input.strip_prefix("route").strip.split(":", 2)
-            if (parts.length == 1) then
-                @current_route = parts[0].strip
-            elsif
-                @current_route = parts[0].strip
-                figure_out_route(parts[1].strip)
-            end
-        elsif input.start_with? "days" then
-            @current_days = input.strip_prefix("days").strip
-        elsif input.start_with? "stops" then
-            figure_out_route(input.strip_prefix("stops").strip)
+def parse_input_for_commands(commands_dict, input, &default)
+    command_found = false
+    commands_dict.each do |command, block|
+        if input.start_with? command then
+            line = input.strip_prefix(command).strip
+            block.call line
+            command_found = true
+            break
         end
-    elsif string.start_with? ":q" then
+    end
+    default.call(input) if not command_found and block_given?
+end
+
+@set_commands = {
+    "route" => Proc.new do |line|
+        parts = line.split(":", 2)
+        if (parts.length == 1) then
+            @current_route = parts[0].strip
+        elsif
+            @current_route = parts[0].strip
+            figure_out_route(parts[1].strip)
+        end
+    end,
+    "days" => Proc.new do |line|
+        @current_days = line
+    end,
+    "stops" => Proc.new do |line|
+        figure_out_route(line)
+    end
+}
+
+@commands = {
+    ":set" => Proc.new do |line|
+        parse_input_for_commands @set_commands, line
+    end,
+    ":q" => Proc.new do |line|
         print_data()
         exit
-    elsif string.start_with? "#" then
-        #this represents a comment and the line is ignored
-    else
-        extract_times(raw_input)
+    end,
+    "#" => Proc.new do |line|
+        # '#' represents a comment and the line is ignored
     end
-end
+}
 
 while true do
-    read_input(gets)
+    parse_input_for_commands @commands, gets do |line|
+        extract_times line
+    end
 end
