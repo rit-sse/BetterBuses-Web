@@ -15,37 +15,54 @@ end
 
 class Array
     def to_s()
+        self.to_s_indent(0)
+    end
+    def to_s_indent(indent)
+        def add_indent(string, indent)
+            indent_string = ""
+            indent.times {|x| indent_string += "  "}
+            string.split("\n").join("\n#{indent_string}")
+        end
         result = "[ "
         index = 0
         self.each { |value|
             if value.is_a? String then
-                result += "\"#{value}\""
+                result += "\"#{add_indent(value, indent + 1)}\""
             else
-                result += "#{value}"
+                result += "#{value.to_s_indent(indent + 1)}"
             end
             index += 1
-            result += ", " if self.length != index - 1
+            result += ",\n" if self.length != index -1
         }
         result += " ]"
+        add_indent(result, indent)
     end
-
 end
 
 class Hash
     def to_s()
+        self.to_s_indent(0)
+    end
+    def to_s_indent(indent)
+        def add_indent(string, indent)
+            indent_string = ""
+            indent.times {|x| indent_string += "  "}
+            string.split("\n").join("\n#{indent_string}")
+        end
         result = "{ "
         index = 0
         self.each { |key, value|
             result += "\"#{key}\" : "
             if value.is_a? String then
-                result += "\"#{value}\""
+                result += "\"#{add_indent(value, indent + 1)}\""
             else
-                result += "#{value}"
+                result += "#{value.to_s_indent(indent + 1)}"
             end
             index += 1
             result += ", " if self.size != index - 1
         }
         result += " }"
+        add_indent(result, indent)
     end
 end
 
