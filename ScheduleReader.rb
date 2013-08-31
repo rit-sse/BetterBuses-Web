@@ -3,6 +3,8 @@
 @departure_times = {}
 @arrival_times = {}
 
+@routes = {}
+
 class String
     def strip_prefix(prefix)
         if self.start_with? prefix then
@@ -70,12 +72,26 @@ end
 @current_days = ""
 @stops = []
 
+def record_route(departure_time, arrival_time, from, to)
+    from ||= ""
+    to ||= ""
+    @routes[@current_route] ||= {}
+    @routes[@current_route][from] ||= {}
+    @routes[@current_route][from][:departures] ||= []
+    @routes[@current_route][from][:departures] << {:to => to, :time => departure_time, :days => @current_days}
+    @routes[@current_route][to] ||= {}
+    @routes[@current_route][to][:arrivals] ||= []
+    @routes[@current_route][to][:arrivals] << {:from => from, :time => arrival_time, :days => @current_days}
+    @routes
+end
+
 def record(dictionary, time, from, to)
-    if from == nil then from == "" end
-    if to == nil then to == "" end
-    dictionary[from] = {} if dictionary[from] == nil
-    dictionary[from][to] = [] if dictionary[from][to] == nil
+    from ||= ""
+    to ||= ""
+    dictionary[from] ||= {}
+    dictionary[from][to] ||= {}
     dictionary[from][to] << {:time => time, :route => "#{@current_route}", :days => "#{@current_days}"}
+    dictionary
 end
 
 def extract_times(string)
@@ -94,7 +110,7 @@ def extract_times(string)
     current_stops_index = 0
     previous_stop = nil
     previous_time = nil
-    times.each { |command|
+    times.each do |command|
         command = command.strip
         if command != "" then
             time = ""
@@ -109,6 +125,9 @@ def extract_times(string)
                 current_stops_index += 1
             end
             if previous_stop != nil and previous_time != nil then
+                # record the times and stops in the routes dictionary
+                record_route(previous_time, time, previous_stop, stop)
+                # record the times and stops in the departure/arrival dictionaries
                 record(@departure_times, previous_time, previous_stop, stop)
                 record(@arrival_times, time, previous_stop, stop)
             end
@@ -120,7 +139,7 @@ def extract_times(string)
         if current_stops_index == @stops.length then
             current_stops_index = 0
         end
-    }
+    end
 end
 
 def figure_out_route(string)
