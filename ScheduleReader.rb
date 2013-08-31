@@ -13,58 +13,41 @@ class String
             return self
         end
     end
+    def indent_after_newline(indent_string = "  ")
+        self.split("\n").join("\n#{indent_string}")
+    end
+end
+
+def jsonify_strings(value)
+    if value.is_a? Hash or value.is_a? Array then
+        "#{value}"
+    else
+        value = value.to_s
+        if value[0] == '"' and value [-1] == '"' then
+            "#{value}"
+        else
+            "\"#{value}\""
+        end
+    end
 end
 
 class Array
     def to_s()
-        self.to_s_indent(0)
-    end
-    def to_s_indent(indent)
-        def add_indent(string, indent)
-            indent_string = ""
-            indent.times {|x| indent_string += "  "}
-            string.split("\n").join("\n#{indent_string}")
-        end
-        result = "[ "
-        index = 0
-        self.each { |value|
-            if value.is_a? String then
-                result += "\"#{add_indent(value, indent + 1)}\""
-            else
-                result += "#{value.to_s_indent(indent + 1)}"
-            end
-            index += 1
-            result += ",\n" if self.length != index -1
-        }
-        result += " ]"
-        add_indent(result, indent)
+        string = (self.map do |value|
+            jsonify_strings value
+        end).join ",\n"
+        result = "{\n#{string}".indent_after_newline
+        result += "\n}"
     end
 end
 
 class Hash
     def to_s()
-        self.to_s_indent(0)
-    end
-    def to_s_indent(indent)
-        def add_indent(string, indent)
-            indent_string = ""
-            indent.times {|x| indent_string += "  "}
-            string.split("\n").join("\n#{indent_string}")
-        end
-        result = "{ "
-        index = 0
-        self.each { |key, value|
-            result += "\"#{key}\" : "
-            if value.is_a? String then
-                result += "\"#{add_indent(value, indent + 1)}\""
-            else
-                result += "#{value.to_s_indent(indent + 1)}"
-            end
-            index += 1
-            result += ", " if self.size != index - 1
-        }
-        result += " }"
-        add_indent(result, indent)
+        string = (self.map do |key, value|
+            "#{jsonify_strings key} : #{jsonify_strings value}"
+        end).join ",\n"
+        result = "{\n#{string}".indent_after_newline
+        result += "\n}"
     end
 end
 
@@ -89,7 +72,7 @@ def record(dictionary, time, from, to)
     from ||= ""
     to ||= ""
     dictionary[from] ||= {}
-    dictionary[from][to] ||= {}
+    dictionary[from][to] ||= []
     dictionary[from][to] << {:time => time, :route => "#{@current_route}", :days => "#{@current_days}"}
     dictionary
 end
