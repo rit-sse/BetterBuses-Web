@@ -1,9 +1,19 @@
 #! /usr/bin/env ruby
 
+############################################
+# data store for the resulting schedule data
 @departure_times = {}
 @arrival_times = {}
-
 @routes = {}
+
+######################
+# current stored state
+@current_route = ""
+@current_days = ""
+@stops = []
+
+##########################################################################
+# modifications to String, Array, and Hash to facilitate printing out JSON
 
 class String
     def strip_prefix(prefix)
@@ -51,9 +61,8 @@ class Hash
     end
 end
 
-@current_route = ""
-@current_days = ""
-@stops = []
+##########################################################
+# functions for adding data to the resulting schedule data
 
 def record_route(departure_time, arrival_time, from, to)
     from ||= ""
@@ -133,6 +142,9 @@ def figure_out_route(string)
     }
 end
 
+########################
+# printing the JSON data
+
 def print_data()
     data_dict = {
         :route_based => @routes,
@@ -143,6 +155,9 @@ def print_data()
     }
     puts "#{data_dict}"
 end
+
+#######################
+# parsing incoming data
 
 def parse_input_for_commands(commands_dict, input, &default)
     command_found = false
