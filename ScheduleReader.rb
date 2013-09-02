@@ -10,7 +10,21 @@
 # current stored state
 @current_route = ""
 @current_days = ""
+
+# curcular route stops
 @stops = []
+@current_stops_index = 0
+def reset_stops
+    @current_stops_index = 0
+end
+def next_stop
+    stop = @stops[@current_stops_index]
+    @current_stops_index += 1
+    if @current_stops_index == @stops.length then
+        reset_stops
+    end
+    stop
+end
 
 ##########################################################################
 # modifications to String, Array, and Hash to facilitate printing out JSON
@@ -87,35 +101,22 @@ def record(dictionary, time, from, to)
 end
 
 def extract_times(string)
-    def contains_special_stop?(time)
-        time.include? "-"
-    end
-    def special_stop(time)
+    def time_parsing(time) # returns stop, time
         parts = time.split("-", 2)
         if parts.length == 2 then
-            return {:time => parts[1].strip, :stop => parts[0].strip}
+            return parts[0].strip, parts[1].strip
         else
-            return nil
+            return next_stop, time
         end
     end
-    times = string.split(">")
-    current_stops_index = 0
+    reset_stops
     previous_stop = nil
     previous_time = nil
-    times.each do |command|
-        command = command.strip
-        if command != "" then
-            time = ""
-            stop = ""
-            if contains_special_stop? command then
-                parts = special_stop command
-                time = parts[:time]
-                stop = parts[:stop]
-            else
-                time = command
-                stop = @stops[current_stops_index]
-                current_stops_index += 1
-            end
+    (string.split(">").map {|command| command.strip}).each do |command|
+        if command == "" or command == nil then
+            next_stop
+        else
+            stop, time = time_parsing command
             if previous_stop != nil and previous_time != nil then
                 # record the times and stops in the routes dictionary
                 record_route(previous_time, time, previous_stop, stop)
@@ -125,11 +126,6 @@ def extract_times(string)
             end
             previous_time = time
             previous_stop = stop
-        else
-            current_stops_index += 1
-        end
-        if current_stops_index == @stops.length then
-            current_stops_index = 0
         end
     end
 end
