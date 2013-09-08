@@ -149,7 +149,7 @@ def print_data()
             :arrivals => @arrival_times
         }
     }
-    puts "#{data_dict}"
+    puts "#{@routes}"
 end
 
 #######################
