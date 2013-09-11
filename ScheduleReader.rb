@@ -60,8 +60,8 @@ class Array
         string = (self.map do |value|
             jsonify_strings value
         end).join ",\n"
-        result = "{\n#{string}".indent_after_newline
-        result += "\n}"
+        result = "[\n#{string}".indent_after_newline
+        result += "\n]"
     end
 end
 
