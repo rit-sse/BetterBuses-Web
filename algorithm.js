@@ -13,7 +13,7 @@ function listcontains(list, item) {
 function listfoldl(list, default_val, fun) {
     var resulting = default_val;
     for (var i=0; i < list.length; i++) {
-        resulting = fun(result, list[i]);
+        resulting = fun(resulting, list[i]);
     }
     return resulting;
 }
@@ -54,7 +54,7 @@ function keyfoldl(map, default_val, fun) {
     return resulting;
 }
 
-function timevalue(t1, t2) {
+function timevalue(t) {
     var ten_hour = 0;
     var one_hour = 0;
     var ten_min = 0;
@@ -66,7 +66,7 @@ function timevalue(t1, t2) {
             one_min = parseInt(t[3]);
             break;
         case 5:
-            if (t[4] == "P" && t[4] == "p") {
+            if (t[4] == "P" || t[4] == "p") {
                 one_hour = parseInt(t[0]);
                 one_hour += 12;
                 ten_min = parseInt(t[2]);
@@ -121,7 +121,7 @@ function findRouteWithStops(stops_list) {
 
 // route name -> (arrivals | departures) -> stop name -> time -> {stop, time, days}
 function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_name, time) {
-    return keyfoldl(Route[route_name], null, function(result, route_stop){
+    return keyfoldl(Routes[route_name], null, function(result, route_stop){
         var from_stop = function(stop_struct) {
             if (stop_type == "departures") {
                 return route_stop;
@@ -150,13 +150,14 @@ function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_
 }
 
 // route name -> stop name -> time -> {from, time, days}
-function firstStopInRouteArrivingFromStopAfterTime(route_name, source_stop_name, time) {
-    return __firstInRouteFromStopAfterTime(route_name, "arrivals", source_stop_name, time);
+function firstStopInRouteArrivingFromStopAfterTime(route_name, stop_name, time) {
+    // TODO: Make sure it's not the same time.
+    return __firstInRouteFromStopAtOrAfterTime(route_name, "arrivals", stop_name, time);
 }
 
 // route name -> stop name -> time -> {to, time, days}
 function firstTimeInRouteDepartingFromStopAtOrAfterTime(route_name, stop_name, time) {
-    return __firstInRouteFromStopAtOrAfterTime(route_name, "departures", source_stop_name, time);
+    return __firstInRouteFromStopAtOrAfterTime(route_name, "departures", stop_name, time);
 }
 
 // route name -> source stop name -> dest stop name -> time -> [{"departs" : departure structure, "arrives" : arrival structure}]
@@ -190,7 +191,7 @@ function findScheduleFromRoutes(routes_list, from_stop, to_stop) {
     return listfoldl(routes_list, {}, function(resulting, route_name){
         var departures_list = Routes[route_name][from_stop].departures;
         var schedules = listfoldl(departures_list, [], function(schedules, departure){
-            var routeSchedule = routeScheduleForTime(route_name, from_stop, to_stop, depatrure.time);
+            var routeSchedule = routeScheduleForTime(route_name, from_stop, to_stop, departure.time);
             if (routeSchedule != null) {
                 schedules.push(routeSchedule);
             }
