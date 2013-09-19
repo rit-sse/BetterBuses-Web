@@ -1,0 +1,6168 @@
+{
+  "Night Route" : {
+    "Gleason Circle" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "6:29P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "6:54P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "7:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "7:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:14P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:39",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Lot K",
+          "time" : "6:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "6:29P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "6:54P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "7:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "7:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "8:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "9:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "10:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "10:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "11:14P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Barnes & Noble" : {
+      "arrivals" : [
+        {
+          "from" : "Park Point North",
+          "time" : "6:15P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "6:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "7:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "7:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "8:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "8:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "10:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "10:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "11:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "11:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "The Province",
+          "time" : "6:15P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "6:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "7:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "7:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:05P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Colony Manor" : {
+      "arrivals" : [
+        {
+          "from" : "The Province",
+          "time" : "6:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "6:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "7:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "7:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "6:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "6:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Lot K" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "6:08P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "6:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "6:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "7:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "7:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:53P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Perkins Green",
+          "time" : "6:08P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "6:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "6:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "7:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "7:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "8:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "9:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "10:28P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "10:53P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "11:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Residence Halls" : {
+      "arrivals" : [
+        {
+          "from" : "Colony Manor",
+          "time" : "6:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "6:51P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "7:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "7:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:11P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:36P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Gleason Circle",
+          "time" : "6:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "6:51P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:11P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:36P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "The Province" : {
+      "arrivals" : [
+        {
+          "from" : "Barnes & Noble",
+          "time" : "6:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "6:44P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "7:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "7:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "8:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "8:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "10:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "10:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "11:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "11:29P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "6:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "6:44P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "7:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "7:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:09P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:29P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Park Point South" : {
+      "arrivals" : [
+        {
+          "from" : "Perkins Green",
+          "time" : "6:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "6:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "7:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "7:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "8:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "8:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "10:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "10:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "10:57P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "11:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Point North",
+          "time" : "6:12P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "6:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "7:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "7:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "8:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "8:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "10:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "10:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "10:57P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "11:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Perkins Green" : {
+      "arrivals" : [
+        {
+          "from" : "Lot K",
+          "time" : "6:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "6:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "7:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "7:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "8:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "8:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "10:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "10:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "10:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "11:20P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Point South",
+          "time" : "6:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "6:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "7:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "7:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "8:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "8:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "10:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "10:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "10:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "11:20P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    },
+    "Park Point North" : {
+      "arrivals" : [
+        {
+          "from" : "Park Point South",
+          "time" : "6:13P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "6:38P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "7:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "7:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "8:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "8:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "10:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "10:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "10:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "11:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Barnes & Noble",
+          "time" : "6:13P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "6:38P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "7:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "7:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "8:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "8:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "10:03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "10:33P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "10:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "11:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday"
+        }
+      ]
+    }
+  },
+  "Colony Manor Route" : {
+    "Gleason Circle" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "7:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "7:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:17",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:31P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:31P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:41P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "7:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "7:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "9:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "9:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "9:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:17",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:31P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:31P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:41P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Colony Manor" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "7:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "4:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "7:33",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:46P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "4:01P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Residence Halls" : {
+      "arrivals" : [
+        {
+          "from" : "Colony Manor",
+          "time" : "7:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "7:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "4:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Perkins Green" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:34P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:34P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "4:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "2:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "2:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "2:34P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "2:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:19P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:34P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:49P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    }
+  },
+  "The Province Route" : {
+    "Gleason Circle" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "7:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "7:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:17",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "The Province",
+          "time" : "7:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "7:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "9:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "9:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "9:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:17",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "1:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "1:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "1:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "1:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "2:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "2:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "4:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "2:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Residence Halls" : {
+      "arrivals" : [
+        {
+          "from" : "The Province",
+          "time" : "7:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "7:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "1:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "1:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "1:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "1:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "2:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "2:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "4:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "8:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:10",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:25",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:40",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "11:55",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:25P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:40P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "The Province" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "7:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "11:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "4:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "7:33",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:18",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:32",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:47",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:02",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:07",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:22",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:37",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "11:52",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:22P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:37P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:18P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:32P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:02P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    }
+  },
+  "Colony Manor-The Province Route" : {
+    "Gleason Circle" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "4:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "5:14P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "5:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "5:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : ":03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "6:20",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "4:11P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "4:26P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "4:42P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "4:58P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "5:14P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "5:30P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "5:47P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : ":03P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Colony Manor" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "4:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "4:48P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "5:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "5:20P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "5:36P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "5:53P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "6:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "The Province",
+          "time" : "4:16P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "2:52P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "4:48P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:04P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:20P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:36P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:53P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "6:10P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "Residence Halls" : {
+      "arrivals" : [
+        {
+          "from" : "The Province",
+          "time" : "4:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "4:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "4:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "5:11P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "5:27P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "5:43P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "6:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "6:17P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:55P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "5:11P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "5:27P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "5:43P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "6:00P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "6:17P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    },
+    "The Province" : {
+      "arrivals" : [
+        {
+          "from" : "Colony Manor",
+          "time" : "4:19",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "4:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "4:51P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:56P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "6:13P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "4:19",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:35P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:51P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:07P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:23P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:39P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:56P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "6:13P",
+          "days" : "Monday,Tuesday,Wednesday,Thursday,Friday"
+        }
+      ]
+    }
+  },
+  "Tiger East End Express TE3" : {
+    "Tyler & Andrews" : {
+      "arrivals" : [
+        {
+          "from" : "Lot K",
+          "time" : "10:43P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "11:43P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "12:43",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "1:43",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Lot K",
+          "time" : "2:46",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Riverknoll",
+          "time" : "10:43P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Riverknoll",
+          "time" : "11:43P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Riverknoll",
+          "time" : "12:43",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Riverknoll",
+          "time" : "1:43",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Riverknoll",
+          "time" : "2:46",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Colony Manor" : {
+      "arrivals" : [
+        {
+          "from" : "Park Point North",
+          "time" : "10:35P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "11:35P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "12:35",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "1:35",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "2:38",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Perkins Green",
+          "time" : "10:35P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "11:35P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "12:35",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "1:35",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:38",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Lot K" : {
+      "arrivals" : [
+        {
+          "from" : "Perkins Green",
+          "time" : "10:39P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "11:39P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "12:39",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "1:39",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:42",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Tyler & Andrews",
+          "time" : "10:39P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Tyler & Andrews",
+          "time" : "11:39P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Tyler & Andrews",
+          "time" : "12:39",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Tyler & Andrews",
+          "time" : "1:39",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Tyler & Andrews",
+          "time" : "2:42",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Pitkin & East" : {
+      "arrivals" : [
+        {
+          "from" : "Riverknoll",
+          "time" : "11:03P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Riverknoll",
+          "time" : "12:03",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Riverknoll",
+          "time" : "1:03",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Riverknoll",
+          "time" : "2:03",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Point North",
+          "time" : "11:05P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "12:05",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "1:05",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "2:15",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Perkins Green" : {
+      "arrivals" : [
+        {
+          "from" : "Colony Manor",
+          "time" : "10:37P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:37P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:37",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:37",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:40",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Lot K",
+          "time" : "10:37P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "11:37P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "12:37",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "1:37",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Lot K",
+          "time" : "2:40",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Riverknoll" : {
+      "arrivals" : [
+        {
+          "from" : "Tyler & Andrews",
+          "time" : "10:45P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Tyler & Andrews",
+          "time" : "11:45P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Tyler & Andrews",
+          "time" : "12:45",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Tyler & Andrews",
+          "time" : "1:45",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Tyler & Andrews",
+          "time" : "2:48",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Pitkin & East",
+          "time" : "10:45P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Pitkin & East",
+          "time" : "11:45P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Pitkin & East",
+          "time" : "12:45",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Pitkin & East",
+          "time" : "1:45",
+          "days" : "Saturday"
+        }
+      ]
+    },
+    "Park Point North" : {
+      "arrivals" : [
+        {
+          "from" : "Pitkin & East",
+          "time" : "11:23P",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Pitkin & East",
+          "time" : "12:25",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Pitkin & East",
+          "time" : "1:23",
+          "days" : "Saturday"
+        },
+        {
+          "from" : "Pitkin & East",
+          "time" : "2:33",
+          "days" : "Saturday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "10:30P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:30P",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:30",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:30",
+          "days" : "Saturday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "2:33",
+          "days" : "Saturday"
+        }
+      ]
+    }
+  },
+  "Weekend Service" : {
+    "Jefferson Plaza" : {
+      "arrivals" : [
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "11:01",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "11:59",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "1:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "2:55P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "4:07P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "5:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "6:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "7:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson & Scutti",
+          "time" : "9:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "10:12P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Point North",
+          "time" : "11:01",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "11:59",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "1:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "2:55P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "4:07P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "5:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "6:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "7:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "9:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point North",
+          "time" : "10:12P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Regal Cinemas" : {
+      "arrivals" : [
+        {
+          "from" : "Wal-Mart",
+          "time" : "10:58",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "11:56",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "1:08P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "2:51P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "4:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "5:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "6:17P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "7:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wal-Mart",
+          "time" : "9:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "10:58",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "11:56",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "1:08P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "2:51P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "4:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "5:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "6:17P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "7:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson & Scutti",
+          "time" : "9:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ]
+    },
+    "Park Pont North" : {
+      "arrivals" : [
+        {
+          "from" : "Park Point South",
+          "time" : "10:27",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "11:25",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "12:37P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "2:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "3:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "4:34P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "5:46P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "6:58P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "8:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "9:52P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Barnes & Noble",
+          "time" : "10:27",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "11:25",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "12:37P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "2:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "3:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "4:34P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "5:46P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "6:58P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "8:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "9:52P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Gleason Circle" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "12:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "1:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "5:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "6:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "7:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "10:35P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "10:14",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "2:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "6:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "8:26P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:38P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Wal-Mart" : {
+      "arrivals" : [
+        {
+          "from" : "Target",
+          "time" : "10:53",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "11:51",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "1:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "2:50P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "4:02P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "5:04P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "6:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "7:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Target",
+          "time" : "9:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Regal Cinemas",
+          "time" : "10:53",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "11:51",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "1:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "2:50P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "4:02P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "5:04P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "6:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "7:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Regal Cinemas",
+          "time" : "9:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ]
+    },
+    "Barnes & Noble" : {
+      "arrivals" : [
+        {
+          "from" : "Park Pont North",
+          "time" : "10:28",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "11:26",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "12:08P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "12:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "1:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "2:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "3:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "3:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "4:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "4:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "5:17P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "5:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "6:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "6:59P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "7:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "8:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "9:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Pont North",
+          "time" : "9:53P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "10:20P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Southtown Plaza",
+          "time" : "10:28",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "11:26",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "12:08P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "12:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "1:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "2:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "3:03P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "3:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "4:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "4:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "5:17P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "5:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "6:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "6:59P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "7:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "8:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "9:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Southtown Plaza",
+          "time" : "9:53P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "10:20P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Southtown Plaza" : {
+      "arrivals" : [
+        {
+          "from" : "Barnes & Noble",
+          "time" : "10:29",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "11:27",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "12:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "2:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "3:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "4:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "5:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "7:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "8:48P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "9:59P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Marketplace Mall",
+          "time" : "10:29",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "11:27",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "12:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "2:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "3:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "4:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "5:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "7:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "8:48P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Marketplace Mall",
+          "time" : "9:59P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Colony Manor" : {
+      "arrivals" : [
+        {
+          "from" : "Residence Halls",
+          "time" : "10:21",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "11:16",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "12:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "1:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "2:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:12P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "3:25P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "4:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "4:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "5:26P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "5:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "6:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "6:51P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "7:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "8:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Residence Halls",
+          "time" : "9:45P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "10:29P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "The Province",
+          "time" : "10:21",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "11:16",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "12:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "1:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "2:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "3:12P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:25P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "4:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "4:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "5:26P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "6:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "6:51P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "7:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "8:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "9:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "9:45P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "Residence Halls",
+          "time" : "10:29P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Target" : {
+      "arrivals" : [
+        {
+          "from" : "Wegmans",
+          "time" : "10:48",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "11:46",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "12:58P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "2:45P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "3:57P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "4:59P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "6:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "7:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Wegmans",
+          "time" : "9:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Wal-Mart",
+          "time" : "10:48",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "11:46",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "12:58P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "2:45P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "3:57P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "4:59P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "6:11P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "7:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wal-Mart",
+          "time" : "9:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ]
+    },
+    "Park Point South" : {
+      "arrivals" : [
+        {
+          "from" : "Perkins Green",
+          "time" : "10:26",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "11:24",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "12:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "12:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "1:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "2:19P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "3:04P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "4:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "4:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "5:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "5:45P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "6:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "6:57P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "7:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "8:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "9:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "9:51P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "Barnes & Noble",
+          "time" : "10:21P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Pont North",
+          "time" : "10:26",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "11:24",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "12:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "12:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "1:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "2:19P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:04P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "3:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "4:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "4:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "5:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "5:45P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "6:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "6:57P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "7:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "8:39P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "9:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Pont North",
+          "time" : "9:51P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "10:21P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "The Province" : {
+      "arrivals" : [
+        {
+          "from" : "Colony Manor",
+          "time" : "10:21",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "11:19",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "12:12P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "1:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "2:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "3:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "4:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "4:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "5:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "6:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "6:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "7:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "8:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "9:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:48P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "Perkins Green",
+          "time" : "10:26P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Perkins Green",
+          "time" : "10:21",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "11:19",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:12P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "12:31P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "1:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "2:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "3:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "4:21P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "4:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "5:23P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "5:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "6:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "6:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "7:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "8:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "9:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Perkins Green",
+          "time" : "9:48P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "10:26P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Residence Halls" : {
+      "arrivals" : [
+        {
+          "from" : "Gleason Circle",
+          "time" : "10:18",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point North",
+          "time" : "11:12",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "12:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "12:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "1:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "1:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "2:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "3:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "3:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "4:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "4:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "5:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "5:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "6:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "6:48P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "7:50P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "7:56P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "8:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "9:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Gleason Circle",
+          "time" : "9:42P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "Colony Manor",
+          "time" : "10:32P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Colony Manor",
+          "time" : "10:18",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "11:12",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "12:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "12:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "1:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "2:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "3:15P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "3:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "4:27P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "4:24P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "5:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "5:36P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "6:41P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "6:48P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "7:50P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "8:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "9:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Colony Manor",
+          "time" : "9:42P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "Gleason Circle",
+          "time" : "10:32P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Marketplace Mall" : {
+      "arrivals" : [
+        {
+          "from" : "Southtown Plaza",
+          "time" : "10:36",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "11:34",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "12:46P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "2:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "3:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "4:49P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "6:01",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "7:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "8:55P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Southtown Plaza",
+          "time" : "10:06P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Wegmans",
+          "time" : "10:36",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "11:34",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "12:46P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "2:35P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "3:47P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "4:49P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "6:01",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "7:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Wegmans",
+          "time" : "8:55P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "10:06P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Wegmans" : {
+      "arrivals" : [
+        {
+          "from" : "Marketplace Mall",
+          "time" : "10:43",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "11:41",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "12:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "2:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "3:52P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "4:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "6:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "7:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Marketplace Mall",
+          "time" : "9:00P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Target",
+          "time" : "10:43",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "11:41",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "12:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "2:40P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "3:52P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "4:54P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "6:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "7:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Target",
+          "time" : "9:00P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ]
+    },
+    "Perkins Green" : {
+      "arrivals" : [
+        {
+          "from" : "The Province",
+          "time" : "10:24",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "11:22",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "12:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "12:34P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "1:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "2:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "3:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "3:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "4:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "4:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "5:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "5:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "6:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "6:56P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "7:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "8:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "9:26P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "The Province",
+          "time" : "9:50P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "from" : "Park Point South",
+          "time" : "10:23P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Park Point South",
+          "time" : "10:24",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "11:22",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "12:10P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "12:34P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "1:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "2:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "3:06P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "3:30P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "4:18P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "4:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "5:20P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "5:44P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "6:32P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "6:56P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "7:42P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "8:38P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "9:26P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Park Point South",
+          "time" : "9:50P",
+          "days" : "Saturday,Holiday"
+        },
+        {
+          "to" : "The Province",
+          "time" : "10:23P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Park Point North" : {
+      "arrivals" : [
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "11:03",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "12:01P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "1:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "3:02P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "4:14P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "5:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "6:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "7:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "9:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Jefferson Plaza",
+          "time" : "10:19P",
+          "days" : "Saturday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Residence Halls",
+          "time" : "11:03",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "12:01P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "1:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "3:02P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "4:14P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "5:16P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "6:28P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "7:33P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "9:22P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Barnes & Noble",
+          "time" : "10:19P",
+          "days" : "Saturday,Holiday"
+        }
+      ]
+    },
+    "Jefferson & Scutti" : {
+      "arrivals" : [
+        {
+          "from" : "Regal Cinemas",
+          "time" : "10:59",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "11:57",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "1:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "2:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "4:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "5:07P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "6:19P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "7:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "from" : "Regal Cinemas",
+          "time" : "9:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "10:59",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "11:57",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "1:09P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "2:53P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "4:05P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "5:07P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "6:19P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "7:29P",
+          "days" : "Saturday,Sunday,Holiday"
+        },
+        {
+          "to" : "Jefferson Plaza",
+          "time" : "9:13P",
+          "days" : "Saturday,Sunday,Holiday"
+        }
+      ]
+    }
+  }
+}
