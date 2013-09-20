@@ -179,7 +179,7 @@ end
         end
     end,
     "days" => Proc.new do |line|
-        @current_days = line
+        @current_days = line.split(",").map {|v| v.strip}
     end,
     "stops" => Proc.new do |line|
         figure_out_route(line)
