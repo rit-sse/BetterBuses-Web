@@ -82,9 +82,11 @@ function timevalue(t) {
         one_min = parseInt(t[3], 10);
         break;
     case 5:
-        if (t[4] === "P" || t[4] === "p") {
+        if (t[4] === "P" || t[4] === "p" || t[4] === "A" || t[4] === "a") {
             one_hour = parseInt(t[0], 10);
-            one_hour += 12;
+            if (t[4] === "P" || t[4] === "p") {
+                one_hour += 12;
+            }
             ten_min = parseInt(t[2], 10);
             one_min = parseInt(t[3], 10);
         } else {
@@ -101,7 +103,11 @@ function timevalue(t) {
     case 6:
         ten_hour = parseInt(t[0], 10);
         one_hour = parseInt(t[1], 10);
-        one_hour += 12;
+        if (t[5] === "P" || t[5] === "p") {
+            if (!(ten_hour === 1 && one_hour === 2)) {
+                one_hour += 12;
+            }
+        }
         ten_min = parseInt(t[3], 10);
         one_min = parseInt(t[4], 10);
         break;
