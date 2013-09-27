@@ -10,6 +10,24 @@ function init() {
   // TODO: Execute algorithm.js.
 }
 
+// Utility methods
+
+// Works just like the spaceship operator (<=>) in Ruby.
+function compare(a, b) {
+  var result;
+
+  if (a < b) {
+    result = -1;
+  } else if (a > b) {
+    result = 1;
+  }
+  else {
+    result = 0;
+  }
+
+  return result;
+}
+
 // Algorithm methods
 
 function stops() {
@@ -106,13 +124,7 @@ function timeSortedSchedulesFromStop(source, destination, day) {
   .sort(function (obj1, obj2) {
     var t1 = timevalue(obj1[0].departs.time),
         t2 = timevalue(obj2[0].departs.time);
-    if (t1 === t2) {
-      return 0;
-    } else if (t1 > t2) {
-      return 1;
-    } else {
-      return -1;
-    }
+    return compare(t1, t2);
   });
 }
 
