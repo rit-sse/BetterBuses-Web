@@ -8,11 +8,9 @@
 
 #import "BBRouteData.h"
 #import "NSArray+Functional.h"
-@import JavaScriptCore;
 
 @interface BBRouteData ()
 @property (retain, readwrite, nonatomic) NSDictionary *data;
-@property (retain) JSContext *javascriptContext;
 @property (retain, readwrite, nonatomic) NSArray *stops;
 @property (retain, readwrite, nonatomic) NSArray *routes;
 
@@ -30,40 +28,6 @@
         routeData = [[self class] new];
     }
     return routeData;
-}
-
-- (id)init {
-    if (self = [super init]) {
-        NSError *error = nil;
-        
-        // read in JSON data
-        NSURL *JSONURL = [[NSBundle mainBundle] URLForResource:@"schedule" withExtension:@"json"];
-        NSData *rawJSONData = [NSData dataWithContentsOfURL:JSONURL];
-        self.data = [NSJSONSerialization JSONObjectWithData:rawJSONData options:0 error:&error];
-        if (error != nil) {
-            NSLog(@"Error reading JSON data. %@", error);
-            self = nil;
-            return self;
-        }
-        
-        // read in JavaScript algorithms
-        _javascriptContext = [[JSContext alloc] init];
-        [_javascriptContext evaluateScript:[NSString stringWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"algorithm" withExtension:@"js"] encoding:NSStringEncodingConversionAllowLossy error:&error]];
-        if (error != nil) {
-            NSLog(@"Error loading algorithm script from bundle. %@", error);
-            self = nil;
-            return self;
-        }
-        
-        // load in the JSON data into the JavaScript context
-        [_javascriptContext evaluateScript:[NSString stringWithFormat:@"Routes = %@", [NSString stringWithContentsOfURL:JSONURL encoding:NSStringEncodingConversionAllowLossy error:&error]]];
-        if (error != nil) {
-            NSLog(@"Error reading JSON text. %@", error);
-            self = nil;
-            return self;
-        }
-    }
-    return self;
 }
 
 #pragma mark - Algorithm Methods
@@ -147,8 +111,6 @@
         }
     }
     return result;
-//    JSValue *value = [self.javascriptContext evaluateScript:[NSString stringWithFormat:@"findScheduleFromRoutes([%@], %@, %@);", [JSValue valueWithObject:routes inContext:self.javascriptContext], source, destination]];
-//    return [value toDictionary];
 }
 
 - (NSDictionary *)routeSchedulesFromStop:(NSString *)source toStop:(NSString *)destination onDay:(NSString *)day {
@@ -182,10 +144,6 @@
 }
 
 #pragma mark - basic javascript interaction interfaces
-
-- (NSInteger)timevalue:(NSString *)timeString {
-    return [[[self.javascriptContext evaluateScript:[NSString stringWithFormat:@"timevalue('%@');", timeString]] toNumber] integerValue];
-}
 
 - (NSDictionary *)firstDepartureInRoute:(NSString *)route fromStop:(NSString *)source atOrAfterTime:(NSString *)time onDay:(NSString *)day {
     NSInteger targetTime = [self timevalue:time];
