@@ -13,35 +13,6 @@ function listcontains(list, item) {
     return false;
 }
 
-function listfoldl(list, default_val, fun) {
-    var resulting = default_val,
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        resulting = fun(resulting, list[i]);
-    }
-    return resulting;
-}
-
-function listfilter(list, fun) {
-    var resulting = [],
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        if (fun(list[i])) {
-            resulting.push(list[i]);
-        }
-    }
-    return resulting;
-}
-
-function listmap(list, fun) {
-    var resulting = [],
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        resulting.push(fun(list[i]));
-    }
-    return resulting;
-}
-
 function keyfilter(map, fun) {
     var resulting = [],
         key;
@@ -144,7 +115,7 @@ function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_
         var from_stop = function (stop_struct) {
             return (stop_type === "departures") ? route_stop : stop_struct.from;
         };
-        return listfoldl(route_stop[stop_type], result,  function (result, stop_struct) {
+        return route_stop[stop_type].reduce(function (result, stop_struct) {
             var resulting = result;
             if (from_stop(stop_struct) === source_stop_name) {
                 if (timevalue(stop_struct.time) >= timevalue(time)) {
@@ -160,7 +131,7 @@ function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_
                 }
             }
             return resulting;
-        });
+        }, result);
     });
 }
 
@@ -205,18 +176,18 @@ function routeScheduleForTime(route_name, from_stop, to_stop, start_time) {
 
 // [route name] -> source stop name -> destination stop name -> {route name : [[{"departs" : departure structure, "arrives" : arrival structure}]]}
 function findScheduleFromRoutes(routes_list, from_stop, to_stop) {
-    return listfoldl(routes_list, {}, function (resulting, route_name) {
+    return routes_list.reduce(function (resulting, route_name) {
         var departures_list = Routes[route_name][from_stop].departures,
-            schedules = listfoldl(departures_list, [],  function (schedules, departure) {
+            schedules = departures_list.reduce(function (schedules, departure) {
                 var routeSchedule = routeScheduleForTime(route_name, from_stop, to_stop, departure.time);
                 if (routeSchedule !== null) {
                     schedules.push(routeSchedule);
                 }
                 return schedules;
-            });
+            }, []);
         if (schedules.length !== 0) {
             resulting[route_name] = schedules;
         }
         return resulting;
-    });
+    }, {});
 }
