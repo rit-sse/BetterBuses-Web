@@ -8,8 +8,10 @@ var Routes = {};
 
 // TODO: Execute algorithm.js.
 
-var _stops = [];
-var _routes = [];
+var RouteData = {
+  "stops": [],
+  "routes": []
+};
 
 // Utility methods
 
@@ -46,8 +48,8 @@ function values(object) {
 // Algorithm methods
 
 function stops() {
-  var stops, result;
-  if (stops === undefined) {
+  var _stops, result;
+  if (_stops === undefined) {
     result = [];
     Routes.forEach(function (routeData) {
       Object.keys(routeData).forEach(function (stopKey) {
@@ -56,24 +58,24 @@ function stops() {
         }
       });
     });
-    _stops = result.sort();
+    RouteData.stops = result.sort();
   }
-  return stops;
+  return _stops;
 }
 
 function routes() {
-  var routes, result;
-  if (routes === undefined) {
+  var _routes, result;
+  if (_routes === undefined) {
     result = [];
     Object.keys(Routes).forEach(function (routeKey) {
       if (!contains(result, routeKey)) {
         result.push(routeKey);
       }
     });
-    _routes = result;
-    _stops = result.sort();
+    RouteData.routes = result;
+    RouteData.stops = result.sort();
   }
-  return routes;
+  return _routes;
 }
 
 function stopsForRoute(route) {
