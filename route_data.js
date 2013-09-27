@@ -154,7 +154,7 @@ function timeSortedSchedulesFromStop(source, destination, day, time) {
 
 function firstDepartureInRoute(route, source, time, day) {
   var targetTime = timevalue(time);
-  Routes[route][source].departures.reduce(function(result, departure) {
+  return Routes[route][source].departures.reduce(function(result, departure) {
     var currentTime = timevalue(departure.time);
     if (currentTime >= targetTime && contains(departure.days, day)) {
       if (result) {
@@ -170,7 +170,7 @@ function firstDepartureInRoute(route, source, time, day) {
 
 function firstArrivalFromStop(source, route, destination, time, day) {
   var targetTime = timevalue(time);
-  Routes[route][destination].arrivals.reduce(function(result, arrival) {
+  return Routes[route][destination].arrivals.reduce(function(result, arrival) {
     var currentTime = timevalue(arrival.time);
     if (currentTime > targetTime && (arrival.from === source) && contains(arrival.days, day)) {
       if (result) {
