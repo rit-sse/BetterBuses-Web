@@ -1,6 +1,3 @@
-/*jslint nomen: true */
-/*global Routes: true */
-
 "use strict";
 
 // the routes JSON object
