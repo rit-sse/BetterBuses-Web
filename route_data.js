@@ -11,9 +11,9 @@ function init() {
 // Algorithm methods
 
 function stops() {
-  var stops;
+  var stops, result;
   if (stops === undefined) {
-    var result = [];
+    result = [];
     _.each(Routes, function (routeData) {
       _.each(_.keys(routeData), function (stopKey) {
         if (!_.contains(result, stopKey)) {
@@ -27,9 +27,9 @@ function stops() {
 }
 
 function routes() {
-  var routes;
+  var routes, result;
   if (routes === undefined) {
-    var result = [];
+    result = [];
     _.each(_.keys(Routes), function (routeKey) {
       if (!_.contains(result, routeKey)) {
         result.push(routeKey);
@@ -60,8 +60,8 @@ function routesForStop(stop) {
 }
 
 function stopsReachableFromStop(stop) {
-  var routes = routesForStop(stop);
-  var result = [];
+  var routes = routesForStop(stop),
+      result = [];
   _.each(routes, function (route) {
     _.each(stopsForRoute(route), function (routeStop) {
       if (!_.contains(result, routeStop) && routeStop !== stop) {
@@ -102,8 +102,8 @@ function timeSortedSchedulesFromStop(source, destination, day) {
     return result.concat(value);
   }, [])
   .sort(function (obj1, obj2) {
-    var t1 = timevalue(obj1[0].departs.time);
-    var t2 = timevalue(obj2[0].departs.time);
+    var t1 = timevalue(obj1[0].departs.time),
+        t2 = timevalue(obj2[0].departs.time);
     if (t1 === t2) {
       return 0;
     } else if (t1 > t2) {
@@ -156,9 +156,10 @@ function firstArrivalFromStop(source, route, destination, time, day) {
 }
 
 function pathForRoute(route, source, destination, time, day) {
-    var result = [];
-    var currentStop = source;
-    var currentTime = time;
+    var result = [],
+        currentStop = source,
+        currentTime = time,
+        arrival;
     while (true) {
         departure = firstDepartureInRoute(route, currentStop, currentTime, day);
         if (!departure) {
@@ -170,7 +171,7 @@ function pathForRoute(route, source, destination, time, day) {
             return null;
         }
         currentTime = departure.time;
-        var arrival = firstArrivalFromStop(currentStop, route, departure.to, currentTime, day);
+        arrival = firstArrivalFromStop(currentStop, route, departure.to, currentTime, day);
         if (!arrival) {
             result = null;
             return null;
