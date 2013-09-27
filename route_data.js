@@ -1,3 +1,5 @@
+"use strict";
+
 // TODO: This only needs to be run once. It might be a good idea to ensure
 // this programatically.
 function init() {
