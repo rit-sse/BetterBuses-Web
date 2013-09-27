@@ -3,14 +3,8 @@
 // the routes JSON object
 Routes = {};
 
-function listcontains(list, item) {
-    var i;
-    for (i = 0; i < list.length; i += 1) {
-        if (list[i] === item) {
-            return true;
-        }
-    }
-    return false;
+function contains(array, object) {
+  return array.indexOf(object) !== -1;
 }
 
 function keyfilter(map, fun) {
@@ -99,7 +93,7 @@ function timevalue(t) {
 function findRouteWithStops(stops_list) {
     var acceptable_routes = keyfilter(Routes, function (route) {
         var correlating_stops = keyfilter(route,  function (route_stop) {
-            return listcontains(stops_list, route_stop);
+            return contains(stops_list, route_stop);
         });
         if (correlating_stops.length === stops_list.length) {
             return true;
