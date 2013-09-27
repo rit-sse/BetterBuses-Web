@@ -120,3 +120,66 @@ function timeSortedSchedulesFromStop(source, destination, day, time) {
     return timevalue(v[0].departs.time) >= currentTime;
   });
 }
+
+// Basic javascript interaction interfaces
+
+function firstDepartureInRoute(route, source, time, day) {
+  var targetTime = timevalue(time);
+  _.reduce(Routes[route][source].departures, function(result, departure) {
+    var currentTime = timevalue(departure.time);
+    if (currentTime >= targetTime && _.contains(departure.days, day)) {
+      if (result) {
+        if (timevalue(result.time) <= currentTime) {
+          return result;
+        }
+      }
+      return departure;
+    }
+    return result;
+  }, null);
+}
+
+function firstArrivalFromStop(source, route, destination, time, day) {
+  var targetTime = timevalue(time);
+  _.reduce(Routes[route][destination].arrivals, function(result, arrival) {
+    var currentTime = timevalue(arrival.time);
+    if (currentTime > targetTime && (arrival.from === source) && _.contains(arrival.days, day)) {
+      if (result) {
+        if (currentTime >= timevalue(result.time)) {
+          return result;
+        }
+      }
+      return arrival;
+    }
+    return result;
+  }, null);
+}
+
+function pathForRoute(route, source, destination, time, day) {
+    var result = [];
+    var currentStop = source;
+    var currentTime = time;
+    while (true) {
+        departure = firstDepartureInRoute(route, currentStop, currentTime, day);
+        if (!departure) {
+            result = null;
+            return null;
+        }
+        if (source === departure.to) {
+            result = null;
+            return null;
+        }
+        currentTime = departure.time;
+        var arrival = firstArrivalFromStop(currentStop, route, departure.to, currentTime, day);
+        if (!arrival) {
+            result = null;
+            return null;
+        }
+        currentTime = arrival.time;
+        currentStop = departure.to;
+        result.push({"departs": departure, "arrives": arrival, "route": route});
+        if (currentStop === destination) {
+            return result;
+        }
+    }
+}
