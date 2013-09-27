@@ -8,6 +8,9 @@ var Routes = {};
 
 // TODO: Execute algorithm.js.
 
+var _stops = [];
+var _routes = [];
+
 // Utility methods
 
 // Works just like the spaceship operator (<=>) in Ruby.
@@ -53,7 +56,7 @@ function stops() {
         }
       });
     });
-    stops = result.sort();
+    _stops = result.sort();
   }
   return stops;
 }
@@ -67,8 +70,8 @@ function routes() {
         result.push(routeKey);
       }
     });
-    routes = result;
-    stops = result.sort();
+    _routes = result;
+    _stops = result.sort();
   }
   return routes;
 }
