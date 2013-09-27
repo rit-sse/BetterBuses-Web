@@ -7,30 +7,6 @@ function contains(array, object) {
   return array.indexOf(object) !== -1;
 }
 
-function keyfilter(map, fun) {
-    var resulting = [],
-        key;
-    for (key in map) {
-        if (map.hasOwnProperty(key)) {
-            if (fun(key)) {
-                resulting.push(key);
-            }
-        }
-    }
-    return resulting;
-}
-
-function keyfoldl(map, default_val, fun) {
-    var resulting = default_val,
-        key;
-    for (key in map) {
-        if (map.hasOwnProperty(key)) {
-            resulting = fun(resulting, key);
-        }
-    }
-    return resulting;
-}
-
 function timevalue(t) {
     var ten_hour = 0,
         one_hour = 0,
@@ -91,8 +67,8 @@ function timevalue(t) {
 // return an array of stops that contain all the stops listed in the given array
 // [stop string] -> [route string]
 function findRouteWithStops(stops_list) {
-    var acceptable_routes = keyfilter(Routes, function (route) {
-        var correlating_stops = keyfilter(route,  function (route_stop) {
+    var acceptable_routes = Object.keys(Routes).filter(function (route) {
+        var correlating_stops = Object.keys(route).filter(function (route_stop) {
             return contains(stops_list, route_stop);
         });
         if (correlating_stops.length === stops_list.length) {
@@ -105,7 +81,7 @@ function findRouteWithStops(stops_list) {
 
 // route name -> (arrivals | departures) -> stop name -> time -> {stop, time, days}
 function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_name, time) {
-    return keyfoldl(Routes[route_name], null, function (result, route_stop) {
+    return Object.keys(Routes[route_name]).reduce(function (result, route_stop) {
         var from_stop = function (stop_struct) {
             return (stop_type === "departures") ? route_stop : stop_struct.from;
         };
@@ -126,7 +102,7 @@ function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_
             }
             return resulting;
         }, result);
-    });
+    }, null);
 }
 
 // route name -> stop name -> time -> {from, time, days}
