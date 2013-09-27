@@ -17,7 +17,7 @@ function stops() {
     _.each(Routes, function (routeData) {
       _.each(_.keys(routeData), function (stopKey) {
         if (!_.contains(result, stopKey)) {
-          result.append(stopKey);
+          result.push(stopKey);
         }
       });
     });
@@ -32,7 +32,7 @@ function routes() {
     var result = [];
     _.each(_.keys(Routes), function (routeKey) {
       if (!_.contains(result, routeKey)) {
-        result.append(routeKey);
+        result.push(routeKey);
       }
     });
     routes = result;
@@ -44,7 +44,7 @@ function routes() {
 function stopsForRoute(route) {
   var result = [];
   _.each(_.keys(Routes[route]), function (stop) {
-    result.append(stop);
+    result.push(stop);
   });
   return result.sort();
 }
@@ -53,7 +53,7 @@ function routesForStop(stop) {
   var result = [];
   _.each(_.keys(Routes), function (routeKey) {
     if (Routes[routeKey][stop] !== undefined) {
-      result.append(routeKey);
+      result.push(routeKey);
     }
   });
   return result.sort();
@@ -65,7 +65,7 @@ function stopsReachableFromStop(stop) {
   _.each(routes, function (route) {
     _.each(stopsForRoute(route), function (routeStop) {
       if (!_.contains(result, routeStop) && routeStop !== stop) {
-        result.append(routeStop);
+        result.push(routeStop);
       }
     });
   });
@@ -76,7 +76,7 @@ function scheduleForRoute(route, source, destination, day) {
   return _.reduce(Routes[route][source]["departures"], function(result, departure) {
     var path = pathForRoute(route, source, destination, departure["time"], day);
     if (path) {
-      result.append(path);
+      result.push(path);
     }
     return result;
   }, []);
