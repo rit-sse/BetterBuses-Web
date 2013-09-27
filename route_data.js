@@ -14,6 +14,10 @@ function init() {
 
 // Works just like the spaceship operator (<=>) in Ruby.
 function compare(a, b) {
+  if (typeof a === 'string') {
+    return a.localeCompare(b);
+  }
+
   var result;
 
   if (a < b) {
