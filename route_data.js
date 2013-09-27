@@ -38,8 +38,8 @@ function stops() {
   var stops, result;
   if (stops === undefined) {
     result = [];
-    _.each(Routes, function (routeData) {
-      _.each(_.keys(routeData), function (stopKey) {
+    Routes.forEach(function (routeData) {
+      _.keys(routeData).forEach(function (stopKey) {
         if (!_.contains(result, stopKey)) {
           result.push(stopKey);
         }
@@ -54,7 +54,7 @@ function routes() {
   var routes, result;
   if (routes === undefined) {
     result = [];
-    _.each(_.keys(Routes), function (routeKey) {
+    _.keys(Routes).forEach(function (routeKey) {
       if (!_.contains(result, routeKey)) {
         result.push(routeKey);
       }
@@ -67,7 +67,7 @@ function routes() {
 
 function stopsForRoute(route) {
   var result = [];
-  _.each(_.keys(Routes[route]), function (stop) {
+  _.keys(Routes[route]).forEach(function (stop) {
     result.push(stop);
   });
   return result.sort();
@@ -75,7 +75,7 @@ function stopsForRoute(route) {
 
 function routesForStop(stop) {
   var result = [];
-  _.each(_.keys(Routes), function (routeKey) {
+  _.keys(Routes).forEach(function (routeKey) {
     if (Routes[routeKey][stop] !== undefined) {
       result.push(routeKey);
     }
@@ -86,8 +86,8 @@ function routesForStop(stop) {
 function stopsReachableFromStop(stop) {
   var routes = routesForStop(stop),
       result = [];
-  _.each(routes, function (route) {
-    _.each(stopsForRoute(route), function (routeStop) {
+  routes.forEach(function (route) {
+    stopsForRoute(route).forEach(function (routeStop) {
       if (!_.contains(result, routeStop) && routeStop !== stop) {
         result.push(routeStop);
       }
@@ -97,7 +97,7 @@ function stopsReachableFromStop(stop) {
 }
 
 function scheduleForRoute(route, source, destination, day) {
-  return _.reduce(Routes[route][source].departures, function(result, departure) {
+  return Routes[route][source].departures.reduce(function(result, departure) {
     var path = pathForRoute(route, source, destination, departure.time, day);
     if (path) {
       result.push(path);
@@ -108,7 +108,7 @@ function scheduleForRoute(route, source, destination, day) {
 
 function schedulesForRoutes(routes, source, destination, day) {
   var result = {};
-  _.each(routes, function (route) {
+  routes.forEach(function (route) {
     var schedule = scheduleForRoute(route, source, destination, day);
     if (schedule.size !== 0) {
       result[route] = schedule;
@@ -122,7 +122,7 @@ function routeSchedulesFromStop(source, desination, day) {
 }
 
 function timeSortedSchedulesFromStop(source, destination, day) {
-  _.reduce(_.values(routeSchedulesFromStop(source, destination, day)), function (result, value) {
+  _.values(routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
     return result.concat(value);
   }, [])
   .sort(function (obj1, obj2) {
@@ -143,7 +143,7 @@ function timeSortedSchedulesFromStop(source, destination, day, time) {
 
 function firstDepartureInRoute(route, source, time, day) {
   var targetTime = timevalue(time);
-  _.reduce(Routes[route][source].departures, function(result, departure) {
+  Routes[route][source].departures.reduce(function(result, departure) {
     var currentTime = timevalue(departure.time);
     if (currentTime >= targetTime && _.contains(departure.days, day)) {
       if (result) {
@@ -159,7 +159,7 @@ function firstDepartureInRoute(route, source, time, day) {
 
 function firstArrivalFromStop(source, route, destination, time, day) {
   var targetTime = timevalue(time);
-  _.reduce(Routes[route][destination].arrivals, function(result, arrival) {
+  Routes[route][destination].arrivals.reduce(function(result, arrival) {
     var currentTime = timevalue(arrival.time);
     if (currentTime > targetTime && (arrival.from === source) && _.contains(arrival.days, day)) {
       if (result) {
