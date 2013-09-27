@@ -73,8 +73,8 @@ function stopsReachableFromStop(stop) {
 }
 
 function scheduleForRoute(route, source, destination, day) {
-  return _.reduce(Routes[route][source]["departures"], function(result, departure) {
-    var path = pathForRoute(route, source, destination, departure["time"], day);
+  return _.reduce(Routes[route][source].departures, function(result, departure) {
+    var path = pathForRoute(route, source, destination, departure.time, day);
     if (path) {
       result.push(path);
     }
@@ -102,8 +102,8 @@ function timeSortedSchedulesFromStop(source, destination, day) {
     return result.concat(value);
   }, [])
   .sort(function (obj1, obj2) {
-    var t1 = timevalue(obj1[0]["departs"]["time"]);
-    var t2 = timevalue(obj2[0]["departs"]["time"]);
+    var t1 = timevalue(obj1[0].departs.time);
+    var t2 = timevalue(obj2[0].departs.time);
     if (t1 === t2) {
       return 0;
     } else if (t1 > t2) {
@@ -117,6 +117,6 @@ function timeSortedSchedulesFromStop(source, destination, day) {
 function timeSortedSchedulesFromStop(source, destination, day, time) {
   var currentTime = timevalue(time);
   return _.filter(timeSortedSchedulesFromStop(source, destination, day), function (v) {
-    return timevalue(v[0]["departs"]["time"]) >= currentTime;
+    return timevalue(v[0].departs.time) >= currentTime;
   });
 }
