@@ -1,72 +1,10 @@
-/*jslint nomen: true */
-/*global Routes: true */
-
 "use strict";
 
 // the routes JSON object
 Routes = {};
 
-function listcontains(list, item) {
-    var i;
-    for (i = 0; i < list.length; i += 1) {
-        if (list[i] === item) {
-            return true;
-        }
-    }
-    return false;
-}
-
-function listfoldl(list, default_val, fun) {
-    var resulting = default_val,
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        resulting = fun(resulting, list[i]);
-    }
-    return resulting;
-}
-
-function listfilter(list, fun) {
-    var resulting = [],
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        if (fun(list[i])) {
-            resulting.push(list[i]);
-        }
-    }
-    return resulting;
-}
-
-function listmap(list, fun) {
-    var resulting = [],
-        i;
-    for (i = 0; i < list.length; i += 1) {
-        resulting.push(fun(list[i]));
-    }
-    return resulting;
-}
-
-function keyfilter(map, fun) {
-    var resulting = [],
-        key;
-    for (key in map) {
-        if (map.hasOwnProperty(key)) {
-            if (fun(key)) {
-                resulting.push(key);
-            }
-        }
-    }
-    return resulting;
-}
-
-function keyfoldl(map, default_val, fun) {
-    var resulting = default_val,
-        key;
-    for (key in map) {
-        if (map.hasOwnProperty(key)) {
-            resulting = fun(resulting, key);
-        }
-    }
-    return resulting;
+function contains(array, object) {
+  return array.indexOf(object) !== -1;
 }
 
 function timevalue(t) {
@@ -129,9 +67,9 @@ function timevalue(t) {
 // return an array of stops that contain all the stops listed in the given array
 // [stop string] -> [route string]
 function findRouteWithStops(stops_list) {
-    var acceptable_routes = keyfilter(Routes, function (route) {
-        var correlating_stops = keyfilter(route,  function (route_stop) {
-            return listcontains(stops_list, route_stop);
+    var acceptable_routes = Object.keys(Routes).filter(function (route) {
+        var correlating_stops = Object.keys(route).filter(function (route_stop) {
+            return contains(stops_list, route_stop);
         });
         if (correlating_stops.length === stops_list.length) {
             return true;
@@ -143,11 +81,11 @@ function findRouteWithStops(stops_list) {
 
 // route name -> (arrivals | departures) -> stop name -> time -> {stop, time, days}
 function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_name, time) {
-    return keyfoldl(Routes[route_name], null, function (result, route_stop) {
+    return Object.keys(Routes[route_name]).reduce(function (result, route_stop) {
         var from_stop = function (stop_struct) {
             return (stop_type === "departures") ? route_stop : stop_struct.from;
         };
-        return listfoldl(route_stop[stop_type], result,  function (result, stop_struct) {
+        return route_stop[stop_type].reduce(function (result, stop_struct) {
             var resulting = result;
             if (from_stop(stop_struct) === source_stop_name) {
                 if (timevalue(stop_struct.time) >= timevalue(time)) {
@@ -163,8 +101,8 @@ function __firstInRouteFromStopAtOrAfterTime(route_name, stop_type, source_stop_
                 }
             }
             return resulting;
-        });
-    });
+        }, result);
+    }, null);
 }
 
 // route name -> stop name -> time -> {from, time, days}
@@ -208,18 +146,18 @@ function routeScheduleForTime(route_name, from_stop, to_stop, start_time) {
 
 // [route name] -> source stop name -> destination stop name -> {route name : [[{"departs" : departure structure, "arrives" : arrival structure}]]}
 function findScheduleFromRoutes(routes_list, from_stop, to_stop) {
-    return listfoldl(routes_list, {}, function (resulting, route_name) {
+    return routes_list.reduce(function (resulting, route_name) {
         var departures_list = Routes[route_name][from_stop].departures,
-            schedules = listfoldl(departures_list, [],  function (schedules, departure) {
+            schedules = departures_list.reduce(function (schedules, departure) {
                 var routeSchedule = routeScheduleForTime(route_name, from_stop, to_stop, departure.time);
                 if (routeSchedule !== null) {
                     schedules.push(routeSchedule);
                 }
                 return schedules;
-            });
+            }, []);
         if (schedules.length !== 0) {
             resulting[route_name] = schedules;
         }
         return resulting;
-    });
+    }, {});
 }
