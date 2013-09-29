@@ -185,7 +185,7 @@ function schedulesForRoutes(routes, source, destination, day) {
   return result;
 }
 
-function routeSchedulesFromStop(source, desination, day) {
+function routeSchedulesFromStop(source, destination, day) {
   return schedulesForRoutes(routesForStop(source), source, destination, day);
 }
 
@@ -245,7 +245,8 @@ function pathForRoute(route, source, destination, time, day) {
     var result = [],
         currentStop = source,
         currentTime = time,
-        arrival;
+        arrival,
+        departure;
     while (true) {
         departure = firstDepartureInRoute(route, currentStop, currentTime, day);
         if (!departure) {
