@@ -1,5 +1,5 @@
 JSLINT_FILES = $(wildcard *.js **/*.js)
-JSLINT_OPTIONS = --nomen
+JSLINT_OPTIONS =
 JSLINT_GLOBALS = --predef Routes
 
 lint:

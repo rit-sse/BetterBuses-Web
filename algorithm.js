@@ -102,34 +102,28 @@ function values(object) {
 // Algorithm methods
 
 function stops() {
-    var _stops, result;
-    if (_stops === undefined) {
-        result = [];
-        Routes.forEach(function (routeData) {
-            Object.keys(routeData).forEach(function (stopKey) {
-                if (!contains(result, stopKey)) {
-                    result.push(stopKey);
-                }
-            });
+    var result = [];
+    Routes.forEach(function (routeData) {
+        Object.keys(routeData).forEach(function (stopKey) {
+            if (!contains(result, stopKey)) {
+                result.push(stopKey);
+            }
         });
-        RouteData.stops = result.sort();
-    }
-    return _stops;
+    });
+    RouteData.stops = result.sort();
+    return RouteData.stops;
 }
 
 function routes() {
-    var _routes, result;
-    if (_routes === undefined) {
-        result = [];
-        Object.keys(Routes).forEach(function (routeKey) {
-            if (!contains(result, routeKey)) {
-                result.push(routeKey);
-            }
-        });
-        RouteData.routes = result;
-        RouteData.stops = result.sort();
-    }
-    return _routes;
+    var result = [];
+    Object.keys(Routes).forEach(function (routeKey) {
+        if (!contains(result, routeKey)) {
+            result.push(routeKey);
+        }
+    });
+    RouteData.routes = result;
+    RouteData.stops = result.sort();
+    return RouteData.routes;
 }
 
 function stopsForRoute(route) {
