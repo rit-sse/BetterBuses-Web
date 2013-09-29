@@ -1,11 +1,17 @@
 "use strict";
 
-// the routes JSON object
+// TODO: Consider moving this stuff into a RouteData module.
+
+// Read in JSON data.
+// TODO: Get data from schedule.json.
 Routes = {};
 
-function contains(array, object) {
-  return array.indexOf(object) !== -1;
-}
+var RouteData = {
+  "stops": [],
+  "routes": []
+};
+
+// Utility methods
 
 function timevalue(t) {
     var ten_hour = 0,
@@ -63,23 +69,6 @@ function timevalue(t) {
     raw_time = (ten_hour * 1000) + (one_hour * 100) + (ten_min * 10) + one_min;
     return post_midnight_time_value(raw_time);
 }
-
-"use strict";
-
-// TODO: Consider moving this stuff into a RouteData module.
-
-// Read in JSON data.
-// TODO: Get data from schedule.json.
-var Routes = {};
-
-// TODO: Execute algorithm.js.
-
-var RouteData = {
-  "stops": [],
-  "routes": []
-};
-
-// Utility methods
 
 // Works just like the spaceship operator (<=>) in Ruby.
 function compare(a, b) {
