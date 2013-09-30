@@ -6,11 +6,6 @@
 // TODO: Get data from schedule.json.
 Routes = {};
 
-var RouteData = {
-    "stops": [],
-    "routes": []
-};
-
 // Utility methods
 
 function timevalue(t) {
@@ -110,8 +105,7 @@ function stops() {
             }
         });
     });
-    RouteData.stops = result.sort();
-    return RouteData.stops;
+    return result.sort();
 }
 
 function routes() {
@@ -121,9 +115,7 @@ function routes() {
             result.push(routeKey);
         }
     });
-    RouteData.routes = result;
-    RouteData.stops = result.sort();
-    return RouteData.routes;
+    return result;
 }
 
 function stopsForRoute(route) {
