@@ -96,7 +96,8 @@ function values(object) {
 
 function stops() {
     var result = [];
-    Routes.forEach(function (routeData) {
+    Object.keys(Routes).forEach(function (key) {
+        var routeData = Routes[key];
         Object.keys(routeData).forEach(function (stopKey) {
             if (!contains(result, stopKey)) {
                 result.push(stopKey);
