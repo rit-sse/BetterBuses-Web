@@ -1,9 +1,6 @@
-// TODO: Consider moving this stuff into a RouteData module.
-
-// Read in JSON data.
-// TODO: Get data from schedule.json.
 var Routes = {
 
+    // Read in JSON data.
     data: {},
 
     // Utility methods
