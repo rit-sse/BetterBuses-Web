@@ -4,6 +4,8 @@
 // TODO: Get data from schedule.json.
 var Routes = {
 
+    data: {},
+
     // Utility methods
 
     timevalue: function (t) {
