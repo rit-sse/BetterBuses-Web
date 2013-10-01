@@ -9,60 +9,60 @@ Routes = {};
 // Utility methods
 
 function timevalue(t) {
-    var ten_hour = 0,
-        one_hour = 0,
-        ten_min = 0,
-        one_min = 0,
-        raw_time;
+    var tenHour = 0,
+        oneHour = 0,
+        tenMin = 0,
+        oneMin = 0,
+        rawTime;
     switch (t.length) {
     case 4:
-        one_hour = parseInt(t[0], 10);
-        ten_min = parseInt(t[2], 10);
-        one_min = parseInt(t[3], 10);
+        oneHour = parseInt(t[0], 10);
+        tenMin = parseInt(t[2], 10);
+        oneMin = parseInt(t[3], 10);
         break;
     case 5:
         if (t[4] === "P" || t[4] === "p" || t[4] === "A" || t[4] === "a") {
-            one_hour = parseInt(t[0], 10);
+            oneHour = parseInt(t[0], 10);
             if (t[4] === "P" || t[4] === "p") {
-                one_hour += 12;
+                oneHour += 12;
             }
-            ten_min = parseInt(t[2], 10);
-            one_min = parseInt(t[3], 10);
+            tenMin = parseInt(t[2], 10);
+            oneMin = parseInt(t[3], 10);
         } else {
-            ten_hour = parseInt(t[0], 10);
-            one_hour = parseInt(t[1], 10);
-            if (ten_hour === 1 && one_hour === 2) {
-                ten_hour = 0;
-                one_hour = 0;
+            tenHour = parseInt(t[0], 10);
+            oneHour = parseInt(t[1], 10);
+            if (tenHour === 1 && oneHour === 2) {
+                tenHour = 0;
+                oneHour = 0;
             }
-            ten_min = parseInt(t[3], 10);
-            one_min = parseInt(t[4], 10);
+            tenMin = parseInt(t[3], 10);
+            oneMin = parseInt(t[4], 10);
         }
         break;
     case 6:
-        ten_hour = parseInt(t[0], 10);
-        one_hour = parseInt(t[1], 10);
+        tenHour = parseInt(t[0], 10);
+        oneHour = parseInt(t[1], 10);
         if (t[5] === "P" || t[5] === "p") {
-            if (!(ten_hour === 1 && one_hour === 2)) {
-                one_hour += 12;
+            if (!(tenHour === 1 && oneHour === 2)) {
+                oneHour += 12;
             }
         }
-        ten_min = parseInt(t[3], 10);
-        one_min = parseInt(t[4], 10);
+        tenMin = parseInt(t[3], 10);
+        oneMin = parseInt(t[4], 10);
         break;
     }
-    function post_midnight_time_value(t_val) {
-        var result = t_val,
-            str_val = String(t_val);
-        if (str_val.length === 3) {
-            if (parseInt(str_val[0], 10) < 5) {
-                result = parseInt(str_val, 10) + 2400;
+    function postMidnightTimeValue(tVal) {
+        var result = tVal,
+            strVal = String(tVal);
+        if (strVal.length === 3) {
+            if (parseInt(strVal[0], 10) < 5) {
+                result = parseInt(strVal, 10) + 2400;
             }
         }
         return result;
     }
-    raw_time = (ten_hour * 1000) + (one_hour * 100) + (ten_min * 10) + one_min;
-    return post_midnight_time_value(raw_time);
+    rawTime = (tenHour * 1000) + (oneHour * 100) + (tenMin * 10) + oneMin;
+    return postMidnightTimeValue(rawTime);
 }
 
 // Works just like the spaceship operator (<=>) in Ruby.
