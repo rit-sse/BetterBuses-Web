@@ -96,8 +96,8 @@ var Routes = {
 
     stops: function () {
         var result = [];
-        Object.keys(Routes).forEach(function (key) {
-            var routeData = Routes[key];
+        Object.keys(Routes.data).forEach(function (key) {
+            var routeData = Routes.data[key];
             Object.keys(routeData).forEach(function (stopKey) {
                 if (!Routes.contains(result, stopKey)) {
                     result.push(stopKey);
@@ -109,7 +109,7 @@ var Routes = {
 
     routes: function () {
         var result = [];
-        Object.keys(Routes).forEach(function (routeKey) {
+        Object.keys(Routes.data).forEach(function (routeKey) {
             if (!Routes.contains(result, routeKey)) {
                 result.push(routeKey);
             }
@@ -119,7 +119,7 @@ var Routes = {
 
     stopsForRoute: function (route) {
         var result = [];
-        Object.keys(Routes[route]).forEach(function (stop) {
+        Object.keys(Routes.data[route]).forEach(function (stop) {
             result.push(stop);
         });
         return result.sort();
@@ -127,8 +127,8 @@ var Routes = {
 
     routesForStop: function (stop) {
         var result = [];
-        Object.keys(Routes).forEach(function (routeKey) {
-            if (Routes[routeKey][stop] !== undefined) {
+        Object.keys(Routes.data).forEach(function (routeKey) {
+            if (Routes.data[routeKey][stop] !== undefined) {
                 result.push(routeKey);
             }
         });
@@ -149,7 +149,7 @@ var Routes = {
     },
 
     scheduleForRoute: function (route, source, destination, day) {
-        return Routes[route][source].departures.reduce(function (result, departure) {
+        return Routes.data[route][source].departures.reduce(function (result, departure) {
             var path = Routes.pathForRoute(route, source, destination, departure.time, day);
             if (path) {
                 result.push(path);
@@ -195,7 +195,7 @@ var Routes = {
 
     firstDepartureInRoute: function (route, source, time, day) {
         var targetTime = Routes.timevalue(time);
-        return Routes[route][source].departures.reduce(function (result, departure) {
+        return Routes.data[route][source].departures.reduce(function (result, departure) {
             var currentTime = Routes.timevalue(departure.time);
             if (currentTime >= targetTime && Routes.contains(departure.days, day)) {
                 if (result) {
@@ -211,7 +211,7 @@ var Routes = {
 
     firstArrivalFromStop: function (source, route, destination, time, day) {
         var targetTime = Routes.timevalue(time);
-        return Routes[route][destination].arrivals.reduce(function (result, arrival) {
+        return Routes.data[route][destination].arrivals.reduce(function (result, arrival) {
             var currentTime = Routes.timevalue(arrival.time);
             if (currentTime > targetTime && (arrival.from === source) && Routes.contains(arrival.days, day)) {
                 if (result) {
