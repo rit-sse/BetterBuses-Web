@@ -1,5 +1,5 @@
 JSLINT_FILES = $(wildcard *.js **/*.js)
-JSLINT_OPTIONS =
+JSLINT_OPTIONS = --sloppy
 JSLINT_GLOBALS = --predef Routes
 
 lint:

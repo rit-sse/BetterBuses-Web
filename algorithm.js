@@ -1,5 +1,3 @@
-"use strict";
-
 // TODO: Consider moving this stuff into a RouteData module.
 
 // Read in JSON data.
