@@ -175,22 +175,23 @@ var Routes = {
         return Routes.schedulesForRoutes(Routes.routesForStop(source), source, destination, day);
     },
 
-    timeSortedSchedulesFromStop: function (source, destination, day) {
-        Routes.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
-            return result.concat(value);
-        }, [])
-            .sort(function (obj1, obj2) {
-                var t1 = Routes.timevalue(obj1[0].departs.time),
-                    t2 = Routes.timevalue(obj2[0].departs.time);
-                return Routes.compare(t1, t2);
-            });
-    },
-
     timeSortedSchedulesFromStop: function (source, destination, day, time) {
-        var currentTime = Routes.timevalue(time);
-        return Routes.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
-            return Routes.timevalue(v[0].departs.time) >= currentTime;
-        });
+        time = time || undefined;
+        if (time === undefined) {
+            Routes.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
+                return result.concat(value);
+            }, [])
+                .sort(function (obj1, obj2) {
+                    var t1 = Routes.timevalue(obj1[0].departs.time),
+                        t2 = Routes.timevalue(obj2[0].departs.time);
+                    return Routes.compare(t1, t2);
+                });
+        } else {
+            var currentTime = Routes.timevalue(time);
+            return Routes.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
+                return Routes.timevalue(v[0].departs.time) >= currentTime;
+            });
+        }
     },
 
     // Basic javascript interaction interfaces
