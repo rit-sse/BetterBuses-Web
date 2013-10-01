@@ -1,9 +1,5 @@
-var Routes = {
-
-    // Read in JSON data.
-    data: {},
-
-    // Utility methods
+// Utility methods
+var Utilities = {
 
     timevalue: function (t) {
         var tenHour = 0,
@@ -89,7 +85,14 @@ var Routes = {
         return Object.keys(object).map(function (key) {
             return object[key];
         });
-    },
+    }
+
+};
+
+var Routes = {
+
+    // Read in JSON data.
+    data: {},
 
     // Algorithm methods
 
@@ -98,7 +101,7 @@ var Routes = {
         Object.keys(Routes.data).forEach(function (key) {
             var routeData = Routes.data[key];
             Object.keys(routeData).forEach(function (stopKey) {
-                if (!Routes.contains(result, stopKey)) {
+                if (!Utilities.contains(result, stopKey)) {
                     result.push(stopKey);
                 }
             });
@@ -109,7 +112,7 @@ var Routes = {
     routes: function () {
         var result = [];
         Object.keys(Routes.data).forEach(function (routeKey) {
-            if (!Routes.contains(result, routeKey)) {
+            if (!Utilities.contains(result, routeKey)) {
                 result.push(routeKey);
             }
         });
@@ -139,7 +142,7 @@ var Routes = {
             result = [];
         routes.forEach(function (route) {
             Routes.stopsForRoute(route).forEach(function (routeStop) {
-                if (!Routes.contains(result, routeStop) && routeStop !== stop) {
+                if (!Utilities.contains(result, routeStop) && routeStop !== stop) {
                     result.push(routeStop);
                 }
             });
@@ -175,18 +178,18 @@ var Routes = {
     timeSortedSchedulesFromStop: function (source, destination, day, time) {
         time = time || undefined;
         if (time === undefined) {
-            Routes.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
+            Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
                 return result.concat(value);
             }, [])
                 .sort(function (obj1, obj2) {
-                    var t1 = Routes.timevalue(obj1[0].departs.time),
-                        t2 = Routes.timevalue(obj2[0].departs.time);
-                    return Routes.compare(t1, t2);
+                    var t1 = Utilities.timevalue(obj1[0].departs.time),
+                        t2 = Utilities.timevalue(obj2[0].departs.time);
+                    return Utilities.compare(t1, t2);
                 });
         } else {
-            var currentTime = Routes.timevalue(time);
+            var currentTime = Utilities.timevalue(time);
             return Routes.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
-                return Routes.timevalue(v[0].departs.time) >= currentTime;
+                return Utilities.timevalue(v[0].departs.time) >= currentTime;
             });
         }
     },
@@ -194,12 +197,12 @@ var Routes = {
     // Basic javascript interaction interfaces
 
     firstDepartureInRoute: function (route, source, time, day) {
-        var targetTime = Routes.timevalue(time);
+        var targetTime = Utilities.timevalue(time);
         return Routes.data[route][source].departures.reduce(function (result, departure) {
-            var currentTime = Routes.timevalue(departure.time);
-            if (currentTime >= targetTime && Routes.contains(departure.days, day)) {
+            var currentTime = Utilities.timevalue(departure.time);
+            if (currentTime >= targetTime && Utilities.contains(departure.days, day)) {
                 if (result) {
-                    if (Routes.timevalue(result.time) <= currentTime) {
+                    if (Utilities.timevalue(result.time) <= currentTime) {
                         return result;
                     }
                 }
@@ -210,12 +213,12 @@ var Routes = {
     },
 
     firstArrivalFromStop: function (source, route, destination, time, day) {
-        var targetTime = Routes.timevalue(time);
+        var targetTime = Utilities.timevalue(time);
         return Routes.data[route][destination].arrivals.reduce(function (result, arrival) {
-            var currentTime = Routes.timevalue(arrival.time);
-            if (currentTime > targetTime && (arrival.from === source) && Routes.contains(arrival.days, day)) {
+            var currentTime = Utilities.timevalue(arrival.time);
+            if (currentTime > targetTime && (arrival.from === source) && Utilities.contains(arrival.days, day)) {
                 if (result) {
-                    if (currentTime >= Routes.timevalue(result.time)) {
+                    if (currentTime >= Utilities.timevalue(result.time)) {
                         return result;
                     }
                 }
