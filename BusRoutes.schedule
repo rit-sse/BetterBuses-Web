@@ -22,7 +22,7 @@
 :set days Saturday,Holiday
 9:38P>9:42P>9:45P>9:48P>9:50P>9:51P>9:52P>9:53P>9:59P>10:06P>>>>>>10:12P>10:19P>10:20P>10:21P>10:23P>10:26P>10:29P>10:32P>10:35P
 # Tiger East End Express (TE3)
-# Effective August 29 - December 14, 2013 and Feburary 2 - May 17, 2014
+# Effective August 29 - December 14, 2013 and February 2 - May 17, 2014
 :set days Saturday
 :set route Tiger East End Express TE3
 :set stops Park Point North > Colony Manor > Perkins Green > Lot K > Tyler & Andrews > Riverknoll > Pitkin & East
