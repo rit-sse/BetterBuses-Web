@@ -11,7 +11,7 @@
 @current_route = ""
 @current_days = ""
 
-# curcular route stops
+# circular route stops
 @stops = []
 @current_stops_index = 0
 def reset_stops
