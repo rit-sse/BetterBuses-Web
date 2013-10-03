@@ -38,21 +38,21 @@
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
 
-      <div class="row">
+      <div class="row" ng-controller="StopListCtrl">
 
-        <div class="col-md-6" ng-controller="SourceListCtrl">
+        <div class="col-md-6">
           <label for="form-picker" class="control-label">Source</label>
           <select class="form-control" id="source-picker">
             <option></option>
-            <option ng-repeat="source in sources">{{source}}</option>
+            <option ng-repeat="stop in stops">{{stop}}</option>
           </select>
         </div>
 
-        <div class="col-md-6" ng-controller="DestinationListCtrl">
+        <div class="col-md-6">
           <label for="destination-picker" class="control-label">Destination</label>
           <select class="form-control" id="destination-picker">
             <option></option>
-            <option ng-repeat="destination in destinations">{{destination}}</option>
+            <option ng-repeat="stop in stops">{{stop}}</option>
           </select>
         </div>
 
