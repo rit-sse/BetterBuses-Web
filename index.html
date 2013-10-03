@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="BetterBusesApp">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,18 +39,23 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6">
+
+        <div class="col-md-6" ng-controller="SourceListCtrl">
           <label for="form-picker" class="control-label">Source</label>
           <select class="form-control" id="source-picker">
             <option></option>
+            <option ng-repeat="source in sources">{{source}}</option>
           </select>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6" ng-controller="DestinationListCtrl">
           <label for="destination-picker" class="control-label">Destination</label>
           <select class="form-control" id="destination-picker">
             <option></option>
+            <option ng-repeat="destination in destinations">{{destination}}</option>
           </select>
         </div>
+
       </div>
 
     </div>
