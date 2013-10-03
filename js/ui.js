@@ -1,4 +1,4 @@
-$.getJSON("schedule.json", function (data) {
+$.getJSON("data/schedule.json", function (data) {
     console.log(data);
     Routes.data = data;
 
