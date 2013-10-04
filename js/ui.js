@@ -9,9 +9,9 @@ $.getJSON("data/schedule.json", function (data) {
 });
 */
 
-function StopListCtrl($scope) {
+function StopListController($scope) {
     $scope.stops = ["Colony Manor", "Gleason Circle"];
 }
 
 var BetterBusesApp = angular.module('BetterBusesApp', []);
-BetterBusesApp.controller('StopListCtrl', StopListCtrl);
+BetterBusesApp.controller('StopListController', StopListController);
