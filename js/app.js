@@ -12,5 +12,7 @@ $.getJSON("data/schedule.json", function (data) {
 // Declare app level module
 angular.module("BetterBusesApp", [])
     .controller("StopListController", function ($scope) {
+        $scope.loaded = false;
         $scope.stops = ["Colony Manor", "Gleason Circle"];
+        $scope.loaded = true;
     });

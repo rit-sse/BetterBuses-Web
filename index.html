@@ -37,9 +37,11 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" ng-controller="StopListController">
 
-      <div class="row" ng-controller="StopListController">
+      <div class="alert alert-info" ng-hide="loaded"><b>Loading schedule data...</b></div>
+
+      <div class="row" ng-show="loaded">
 
         <div class="col-md-6">
           <label for="form-picker" class="control-label">Source</label>
