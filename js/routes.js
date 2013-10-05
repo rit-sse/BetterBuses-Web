@@ -12,15 +12,16 @@ var Utilities = {
 
     timeString: function () {
         // Format: [0-9]?[0-9]:[0-9][0-9][AP]
-        var now = new Date();
-        var hour = now.getHours();
+        var now, hour, minute, ampm;
+        now = new Date();
+        hour = now.getHours();
         hour = hour % 11;
         hour = (hour === 0) ? 12 : hour;
-        var minute = now.getMinutes();
+        minute = now.getMinutes();
         if (minute < 10) {
             minute = "0" + minute;
         }
-        var ampm = hour < 12 ? "A" : "P";
+        ampm = hour < 12 ? "A" : "P";
         return hour + ":" + minute + ampm;
     },
 
