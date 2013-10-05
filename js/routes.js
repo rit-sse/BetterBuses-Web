@@ -1,6 +1,29 @@
 // Utility methods
 var Utilities = {
 
+    days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+
+    dayString: function () {
+        // Format: Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
+        // TODO: If it is a holiday, return "Holiday" instead.
+        var now = new Date();
+        return Utilities.days[now.getDay()];
+    },
+
+    timeString: function () {
+        // Format: [0-9]?[0-9]:[0-9][0-9][AP]
+        var now = new Date();
+        var hour = now.getHours();
+        hour = hour % 11;
+        hour = (hour === 0) ? 12 : hour;
+        var minute = now.getMinutes();
+        if (minute < 10) {
+            minute = "0" + minute;
+        }
+        var ampm = hour < 12 ? "A" : "P";
+        return hour + ":" + minute + ampm;
+    },
+
     timevalue: function (t) {
         var tenHour = 0,
             oneHour = 0,
