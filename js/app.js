@@ -1,18 +1,14 @@
-/*
-$.getJSON("data/schedule.json", function (data) {
-    console.log(data);
-    Routes.data = data;
-
-    // TODO: Set properties of $scope here.
-}).fail(function () {
-    console.log("An error has occured in loading schedule.json.");
-});
-*/
-
 // Declare app level module
 angular.module("BetterBusesApp", [])
-    .controller("StopListController", function ($scope) {
+    .controller("StopListController", function ($scope, $http) {
         $scope.loaded = false;
-        $scope.stops = ["Colony Manor", "Gleason Circle"];
-        $scope.loaded = true;
+        $http.get("data/schedule.json").success(function (data) {
+            console.log(data);
+            Routes.data = data;
+
+            $scope.stops = Routes.stops();
+            $scope.loaded = true;
+        }).error(function () {
+            console.log("An error has occured in loading schedule.json.");
+        });
     });
