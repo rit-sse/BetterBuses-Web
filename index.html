@@ -48,16 +48,16 @@
         <div class="col-md-6">
           <label for="form-picker" class="control-label">Source</label>
           <select class="form-control" id="source-picker">
-            <option></option>
-            <option ng-repeat="stop in stops">{{stop}}</option>
+            <option value=""></option>
+            <option value="{{stop}}" ng-repeat="stop in stops">{{stop}}</option>
           </select>
         </div>
 
         <div class="col-md-6">
           <label for="destination-picker" class="control-label">Destination</label>
           <select class="form-control" id="destination-picker">
-            <option></option>
-            <option ng-repeat="stop in stops">{{stop}}</option>
+            <option value=""></option>
+            <option value="{{stop}}" ng-repeat="stop in stops">{{stop}}</option>
           </select>
         </div>
 
