@@ -39,9 +39,11 @@
 
     <div class="container" ng-controller="StopListController">
 
-      <div class="alert alert-info" ng-hide="loaded"><b>Loading schedule data...</b></div>
+      <div class="alert alert-info" ng-show="!loaded && !errored"><b>Loading schedule data...</b></div>
 
-      <div class="row" ng-show="loaded">
+      <div class="alert alert-danger" ng-show="errored"><b>An error has occurred in loading schedule.json.</b></div>
+
+      <div class="row" ng-show="loaded && !errored">
 
         <div class="col-md-6">
           <label for="form-picker" class="control-label">Source</label>
