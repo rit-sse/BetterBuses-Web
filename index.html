@@ -35,13 +35,13 @@
       </div>
     </div>
 
-    <div class="container" ng-controller="StopListController">
+    <div class="container" ng-controller="StopListController" ng-switch="loadState">
 
-      <div class="alert alert-info" ng-show="loadState == 'loading'"><b>Loading schedule data...</b></div>
+      <div class="alert alert-info" ng-switch-when="loading"><b>Loading schedule data...</b></div>
 
-      <div class="alert alert-danger" ng-show="loadState == 'failure'"><b>An error has occurred in loading schedule.json.</b></div>
+      <div class="alert alert-danger" ng-switch-when="failure"><b>An error has occurred in loading schedule.json.</b></div>
 
-      <div class="row" ng-show="loadState == 'success'">
+      <div class="row" ng-switch-when="success">
 
         <div class="col-md-6">
           <label for="form-picker" class="control-label">Source</label>
