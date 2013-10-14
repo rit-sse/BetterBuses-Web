@@ -1,7 +1,7 @@
-function Schedule() {
+function Schedule(data) {
 
-    // Read in JSON data.
-    this.data = {};
+    // Read in JSON data, then pass it to the constructor
+    this.data = data;
 
     // Algorithm methods
 
