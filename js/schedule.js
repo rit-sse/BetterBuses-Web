@@ -1,14 +1,15 @@
-var Schedule = {
+function Schedule() {
 
     // Read in JSON data.
-    data: {},
+    this.data = {};
 
     // Algorithm methods
 
-    stops: function () {
-        var result = [];
-        Object.keys(Schedule.data).forEach(function (key) {
-            var routeData = Schedule.data[key];
+    this.stops = function () {
+        var result = [],
+            that = this;
+        Object.keys(this.data).forEach(function (key) {
+            var routeData = that.data[key];
             Object.keys(routeData).forEach(function (stopKey) {
                 if (!Utilities.contains(result, stopKey)) {
                     result.push(stopKey);
@@ -16,38 +17,39 @@ var Schedule = {
             });
         });
         return result.sort();
-    },
+    };
 
-    routes: function () {
+    this.routes = function () {
         var result = [];
-        Object.keys(Schedule.data).forEach(function (routeKey) {
+        Object.keys(this.data).forEach(function (routeKey) {
             if (!Utilities.contains(result, routeKey)) {
                 result.push(routeKey);
             }
         });
         return result;
-    },
+    };
 
-    stopsForRoute: function (route) {
+    this.stopsForRoute = function (route) {
         var result = [];
-        Object.keys(Schedule.data[route]).forEach(function (stop) {
+        Object.keys(this.data[route]).forEach(function (stop) {
             result.push(stop);
         });
         return result.sort();
-    },
+    };
 
-    routesForStop: function (stop) {
-        var result = [];
-        Object.keys(Schedule.data).forEach(function (routeKey) {
-            if (Schedule.data[routeKey][stop] !== undefined) {
+    this.routesForStop = function (stop) {
+        var result = [],
+            that = this;
+        Object.keys(this.data).forEach(function (routeKey) {
+            if (that.data[routeKey][stop] !== undefined) {
                 result.push(routeKey);
             }
         });
         return result.sort();
-    },
+    };
 
-    stopsReachableFromStop: function (stop) {
-        var routes = Schedule.routesForStop(stop),
+    this.stopsReachableFromStop = function (stop) {
+        var routes = RouteSystem.routesForStop(stop),
             result = [];
         routes.forEach(function (route) {
             Schedule.stopsForRoute(route).forEach(function (routeStop) {
@@ -57,12 +59,12 @@ var Schedule = {
             });
         });
         return result.sort();
-    },
+    };
 
-    scheduleForRoute: function (route, source, destination, day) {
+    this.scheduleForRoute = function (route, source, destination, day) {
         try {
-            return Schedule.data[route][source].departures.reduce(function (result, departure) {
-                var path = Schedule.pathForRoute(route, source, destination, departure.time, day);
+            return this.data[route][source].departures.reduce(function (result, departure) {
+                var path = RouteSystem.pathForRoute(route, source, destination, departure.time, day);
                 if (path) {
                     result.push(path);
                 }
@@ -71,9 +73,9 @@ var Schedule = {
         } catch (e) {
             return [];
         }
-    },
+    };
 
-    schedulesForRoutes: function (routes, source, destination, day) {
+    this.schedulesForRoutes = function (routes, source, destination, day) {
         var result = {};
         routes.forEach(function (route) {
             var schedule = Schedule.scheduleForRoute(route, source, destination, day);
@@ -82,13 +84,13 @@ var Schedule = {
             }
         });
         return result;
-    },
+    };
 
-    routeSchedulesFromStop: function (source, destination, day) {
-        return Schedule.schedulesForRoutes(Schedule.routesForStop(source), source, destination, day);
-    },
+    this.routeSchedulesFromStop = function (source, destination, day) {
+        return RouteSystem.schedulesForRoutes(RouteSystem.routesForStop(source), source, destination, day);
+    };
 
-    timeSortedSchedulesFromStop: function (source, destination, day, time) {
+    this.timeSortedSchedulesFromStop = function (source, destination, day, time) {
         var result, currentTime;
         if (time === undefined) {
             result = Utilities.values(Schedule.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
@@ -106,14 +108,14 @@ var Schedule = {
             });
         }
         return result;
-    },
+    };
 
     // Basic javascript interaction interfaces
 
-    firstDepartureInRoute: function (route, source, time, day) {
+    this.firstDepartureInRoute: function (route, source, time, day) {
         try {
             var targetTime = Utilities.timevalue(time);
-            return Schedule.data[route][source].departures.reduce(function (result, departure) {
+            return this.data[route][source].departures.reduce(function (result, departure) {
                 var currentTime = Utilities.timevalue(departure.time);
                 if (currentTime >= targetTime && Utilities.contains(departure.days, day)) {
                     if (result) {
@@ -128,12 +130,12 @@ var Schedule = {
         } catch (e) {
             return {};
         }
-    },
+    };
 
-    firstArrivalFromStop: function (source, route, destination, time, day) {
+    this.firstArrivalFromStop = function (source, route, destination, time, day) {
         try {
             var targetTime = Utilities.timevalue(time);
-            return Schedule.data[route][destination].arrivals.reduce(function (result, arrival) {
+            return this.data[route][destination].arrivals.reduce(function (result, arrival) {
                 var currentTime = Utilities.timevalue(arrival.time);
                 if (currentTime > targetTime && (arrival.from === source) && Utilities.contains(arrival.days, day)) {
                     if (result) {
@@ -148,9 +150,9 @@ var Schedule = {
         } catch (e) {
             return {};
         }
-    },
+    };
 
-    pathForRoute: function (route, source, destination, time, day) {
+    this.pathForRoute = function (route, source, destination, time, day) {
         var result = [],
             currentStop = source,
             currentTime = time,
@@ -179,6 +181,6 @@ var Schedule = {
                 return result;
             }
         }
-    }
+    };
 
-};
+}
