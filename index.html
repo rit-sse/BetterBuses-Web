@@ -44,7 +44,7 @@
       <div class="row" ng-switch-when="success">
 
         <div class="col-md-6">
-          <label for="form-picker" class="control-label">Source</label>
+          <label class="control-label" for="source-picker">Source</label>
           <select class="form-control" id="source-picker">
             <option value=""></option>
             <option value="{{stop}}" ng-repeat="stop in stops">{{stop}}</option>
@@ -52,7 +52,7 @@
         </div>
 
         <div class="col-md-6">
-          <label for="destination-picker" class="control-label">Destination</label>
+          <label class="control-label" for="destination-picker">Destination</label>
           <select class="form-control" id="destination-picker">
             <option value=""></option>
             <option value="{{stop}}" ng-repeat="stop in stops">{{stop}}</option>
