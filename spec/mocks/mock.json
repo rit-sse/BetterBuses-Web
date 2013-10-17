@@ -1,0 +1,90 @@
+{
+  "Route A" : {
+    "One" : {
+      "departures" : [
+        {
+          "to" : "Two",
+          "time" : "8:00",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    },
+    "Two" : {
+      "arrivals" : [
+        {
+          "from" : "One",
+          "time" : "8:10",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Three",
+          "time" : "8:10",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    },
+    "Three" : {
+      "arrivals" : [
+        {
+          "from" : "Two",
+          "time" : "8:20",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    }
+  },
+  "Route B" : {
+    "Two" : {
+      "departures" : [
+        {
+          "to" : "Three",
+          "time" : "8:00P",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    },
+    "Three" : {
+      "arrivals" : [
+        {
+          "from" : "Two",
+          "time" : "8:10P",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ],
+      "departures" : [
+        {
+          "to" : "Four",
+          "time" : "8:10P",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    },
+    "Four" : {
+      "arrivals" : [
+        {
+          "from" : "Three",
+          "time" : "8:20P",
+          "days" : [
+            "Monday"
+          ]
+        }
+      ]
+    }
+  }
+}

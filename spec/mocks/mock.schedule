@@ -1,0 +1,9 @@
+:set route Route A : One > Two > Three
+:set days Monday
+8:00 > 8:10 > 8:20
+
+:set route Route B : Two > Three > Four
+:set days Monday
+8:00P > 8:10P > 8:20P
+
+:q
