@@ -41,6 +41,6 @@ describe("Utilities", function() {
         var object = {"first": 1, "second": 2, "third": 3};
 
         expect(Utilities.values(object)).toEqual([1, 2, 3]);
-        expect({}).toEqual([]);
+        expect(Utilities.values({})).toEqual([]);
     });
 });
