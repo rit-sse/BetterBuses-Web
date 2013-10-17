@@ -11,7 +11,7 @@ var Utilities = {
     },
 
     timeString: function () {
-        // Format: [0-9]?[0-9]:[0-9][0-9][AP]
+        // Format: [0-1]?[0-9]:[0-9][0-9][AP]?
         var now, hour, minute, ampm;
         now = new Date();
         hour = now.getHours();

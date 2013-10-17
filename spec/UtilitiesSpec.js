@@ -8,7 +8,7 @@ describe("Utilities", function() {
     });
 
     it("generates a formatted string of the current time", function () {
-        expect(Utilities.timeString()).toMatch(/[0-9]?[0-9]:[0-9][0-9][AP]/);
+        expect(Utilities.timeString()).toMatch(/[0-1]?[0-9]:[0-9][0-9][AP]?/);
     });
 
     it("generates a time value (number) for a time string", function () {
