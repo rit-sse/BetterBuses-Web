@@ -1,3 +1,8 @@
 beforeEach(function() {
-  this.addMatchers({});
+    this.addMatchers({});
 });
+
+Routes.data = $.parseJSON($.ajax({
+    url: "spec/mocks/mock.json",
+    async: false
+}).responseText);

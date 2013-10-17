@@ -1,9 +1,4 @@
 describe("Routes", function() {
-    Routes.data = $.parseJSON($.ajax({
-        url: "spec/mocks/mock.json",
-        async: false
-    }).responseText);
-
     it("has route data", function () {
         expect(Object.keys(Routes.data).length).toBeGreaterThan(0);
     });
