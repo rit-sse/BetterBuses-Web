@@ -49,10 +49,11 @@ function Schedule(data) {
     };
 
     this.stopsReachableFromStop = function (stop) {
-        var routes = RouteSystem.routesForStop(stop),
-            result = [];
+        var routes = this.routesForStop(stop),
+            result = [],
+            that = this;
         routes.forEach(function (route) {
-            Schedule.stopsForRoute(route).forEach(function (routeStop) {
+            that.stopsForRoute(route).forEach(function (routeStop) {
                 if (!Utilities.contains(result, routeStop) && routeStop !== stop) {
                     result.push(routeStop);
                 }
@@ -63,8 +64,9 @@ function Schedule(data) {
 
     this.scheduleForRoute = function (route, source, destination, day) {
         try {
+            var that = this;
             return this.data[route][source].departures.reduce(function (result, departure) {
-                var path = RouteSystem.pathForRoute(route, source, destination, departure.time, day);
+                var path = that.pathForRoute(route, source, destination, departure.time, day);
                 if (path) {
                     result.push(path);
                 }
@@ -76,9 +78,10 @@ function Schedule(data) {
     };
 
     this.schedulesForRoutes = function (routes, source, destination, day) {
-        var result = {};
+        var result = {},
+            that = this;
         routes.forEach(function (route) {
-            var schedule = Schedule.scheduleForRoute(route, source, destination, day);
+            var schedule = that.scheduleForRoute(route, source, destination, day);
             if (schedule.size !== 0) {
                 result[route] = schedule;
             }
@@ -87,13 +90,13 @@ function Schedule(data) {
     };
 
     this.routeSchedulesFromStop = function (source, destination, day) {
-        return RouteSystem.schedulesForRoutes(RouteSystem.routesForStop(source), source, destination, day);
+        return this.schedulesForRoutes(this.routesForStop(source), source, destination, day);
     };
 
     this.timeSortedSchedulesFromStop = function (source, destination, day, time) {
         var result, currentTime;
         if (time === undefined) {
-            result = Utilities.values(Schedule.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
+            result = Utilities.values(this.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
                 return result.concat(value);
             }, [])
                 .sort(function (obj1, obj2) {
@@ -103,7 +106,7 @@ function Schedule(data) {
                 });
         } else {
             currentTime = Utilities.timevalue(time);
-            result = Schedule.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
+            result = this..timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
                 return Utilities.timevalue(v[0].departs.time) >= currentTime;
             });
         }
@@ -159,7 +162,7 @@ function Schedule(data) {
             arrival,
             departure;
         while (true) {
-            departure = Schedule.firstDepartureInRoute(route, currentStop, currentTime, day);
+            departure = this.firstDepartureInRoute(route, currentStop, currentTime, day);
             if (!departure) {
                 result = null;
                 return null;
@@ -169,7 +172,7 @@ function Schedule(data) {
                 return null;
             }
             currentTime = departure.time;
-            arrival = Schedule.firstArrivalFromStop(currentStop, route, departure.to, currentTime, day);
+            arrival = this.firstArrivalFromStop(currentStop, route, departure.to, currentTime, day);
             if (!arrival) {
                 result = null;
                 return null;
