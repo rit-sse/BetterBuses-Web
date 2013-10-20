@@ -85,7 +85,6 @@ var Routes = {
     },
 
     timeSortedSchedulesFromStop: function (source, destination, day, time) {
-        time = time || undefined;
         if (time === undefined) {
             Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
                 return result.concat(value);
