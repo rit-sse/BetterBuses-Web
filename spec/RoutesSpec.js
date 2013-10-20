@@ -1,6 +1,6 @@
 describe("Routes", function() {
     it("has route data", function () {
-        expect(Object.keys(Routes.data).length).toBeGreaterThan(0);
+        expect(Routes.data).not.toEqual({});
     });
 
     it("gets all stops in the schedule", function () {
