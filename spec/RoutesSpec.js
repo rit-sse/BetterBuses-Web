@@ -105,4 +105,21 @@ describe("Routes", function() {
             }]
         ]);
     });
+
+    it("gets the first departure in a route", function () {
+        expect(Routes.firstDepartureInRoute("Route A", "One", "7:50A", "Monday")).toEqual({
+            "to" : "Two",
+            "time" : "8:00",
+            "days" : [ "Monday" ]
+        });
+    });
+
+    it("gets the first arrival from a stop", function () {
+        expect(Routes.firstArrivalFromStop("One", "Route A", "Three", "8:20", "Monday")).toEqual({
+            "from" : "Two",
+            "time" : "8:20",
+            "days" : [ "Monday" ]
+        });
+        expect(Routes.firstArrivalFromStop("One", "Route A", "Four", "7:50A", "Monday")).toEqual({});
+    });
 });
