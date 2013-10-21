@@ -5,7 +5,6 @@ var Utilities = {
 
     dayString: function () {
         // Format: Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
-        // TODO: If it is a holiday, return "Holiday" instead.
         var now = new Date();
         return Utilities.days[now.getDay()];
     },

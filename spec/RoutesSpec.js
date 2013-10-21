@@ -1,4 +1,4 @@
-describe("Routes", function() {
+describe("Routes", function () {
     it("has route data", function () {
         expect(Routes.data).not.toEqual({});
     });

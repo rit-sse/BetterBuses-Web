@@ -1,4 +1,4 @@
-describe("Utilities", function() {
+describe("Utilities", function () {
     it("has a list of days of the week", function () {
         expect(Utilities.days.length).toBe(7);
     });

@@ -89,8 +89,9 @@ var Routes = {
     },
 
     timeSortedSchedulesFromStop: function (source, destination, day, time) {
+        var result, currentTime;
         if (time === undefined) {
-            return Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
+            result = Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
                 return result.concat(value);
             }, [])
                 .sort(function (obj1, obj2) {
@@ -99,11 +100,12 @@ var Routes = {
                     return Utilities.compare(t1, t2);
                 });
         } else {
-            var currentTime = Utilities.timevalue(time);
-            return Routes.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
+            currentTime = Utilities.timevalue(time);
+            result = Routes.timeSortedSchedulesFromStop(source, destination, day).filter(function (v) {
                 return Utilities.timevalue(v[0].departs.time) >= currentTime;
             });
         }
+        return result;
     },
 
     // Basic javascript interaction interfaces
