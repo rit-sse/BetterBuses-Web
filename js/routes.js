@@ -60,13 +60,17 @@ var Routes = {
     },
 
     scheduleForRoute: function (route, source, destination, day) {
-        return Routes.data[route][source].departures.reduce(function (result, departure) {
-            var path = Routes.pathForRoute(route, source, destination, departure.time, day);
-            if (path) {
-                result.push(path);
-            }
-            return result;
-        }, []);
+        try {
+            return Routes.data[route][source].departures.reduce(function (result, departure) {
+                var path = Routes.pathForRoute(route, source, destination, departure.time, day);
+                if (path) {
+                    result.push(path);
+                }
+                return result;
+            }, []);
+        } catch (e) {
+            return [];
+        }
     },
 
     schedulesForRoutes: function (routes, source, destination, day) {
@@ -86,7 +90,7 @@ var Routes = {
 
     timeSortedSchedulesFromStop: function (source, destination, day, time) {
         if (time === undefined) {
-            Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
+            return Utilities.values(Routes.routeSchedulesFromStop(source, destination, day)).reduce(function (result, value) {
                 return result.concat(value);
             }, [])
                 .sort(function (obj1, obj2) {
