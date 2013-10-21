@@ -123,4 +123,32 @@ describe("Routes", function() {
         });
         expect(Routes.firstArrivalFromStop("One", "Route A", "Four", "7:50A", "Monday")).toEqual({});
     });
+
+    it("gets the path for a route", function () {
+        expect(Routes.pathForRoute("Route A", "One", "Three", "7:50A", "Monday")).toEqual([{
+            departs: {
+                "to" : "Two",
+                "time" : "8:00",
+                "days" : [ "Monday" ]
+            },
+            arrives: {
+                "from" : "One",
+                "time" : "8:10",
+                "days" : [ "Monday" ]
+            },
+            route: "Route A"
+        }, {
+            departs: {
+                "to" : "Three",
+                "time" : "8:10",
+                "days" : [ "Monday" ]
+            },
+            arrives: {
+                "from" : "Two",
+                "time" : "8:20",
+                "days" : [ "Monday" ]
+            },
+            route: "Route A"
+        }]);
+    });
 });
