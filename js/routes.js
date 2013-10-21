@@ -109,35 +109,43 @@ var Routes = {
     // Basic javascript interaction interfaces
 
     firstDepartureInRoute: function (route, source, time, day) {
-        var targetTime = Utilities.timevalue(time);
-        return Routes.data[route][source].departures.reduce(function (result, departure) {
-            var currentTime = Utilities.timevalue(departure.time);
-            if (currentTime >= targetTime && Utilities.contains(departure.days, day)) {
-                if (result) {
-                    if (Utilities.timevalue(result.time) <= currentTime) {
-                        return result;
+        try {
+            var targetTime = Utilities.timevalue(time);
+            return Routes.data[route][source].departures.reduce(function (result, departure) {
+                var currentTime = Utilities.timevalue(departure.time);
+                if (currentTime >= targetTime && Utilities.contains(departure.days, day)) {
+                    if (result) {
+                        if (Utilities.timevalue(result.time) <= currentTime) {
+                            return result;
+                        }
                     }
+                    return departure;
                 }
-                return departure;
-            }
-            return result;
-        }, null);
+                return result;
+            }, null);
+        } catch (e) {
+            return {};
+        }
     },
 
     firstArrivalFromStop: function (source, route, destination, time, day) {
-        var targetTime = Utilities.timevalue(time);
-        return Routes.data[route][destination].arrivals.reduce(function (result, arrival) {
-            var currentTime = Utilities.timevalue(arrival.time);
-            if (currentTime > targetTime && (arrival.from === source) && Utilities.contains(arrival.days, day)) {
-                if (result) {
-                    if (currentTime >= Utilities.timevalue(result.time)) {
-                        return result;
+        try {
+            var targetTime = Utilities.timevalue(time);
+            return Routes.data[route][destination].arrivals.reduce(function (result, arrival) {
+                var currentTime = Utilities.timevalue(arrival.time);
+                if (currentTime > targetTime && (arrival.from === source) && Utilities.contains(arrival.days, day)) {
+                    if (result) {
+                        if (currentTime >= Utilities.timevalue(result.time)) {
+                            return result;
+                        }
                     }
+                    return arrival;
                 }
-                return arrival;
-            }
-            return result;
-        }, null);
+                return result;
+            });
+        } catch (e) {
+            return {};
+        }
     },
 
     pathForRoute: function (route, source, destination, time, day) {

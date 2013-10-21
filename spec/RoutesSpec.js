@@ -112,6 +112,7 @@ describe("Routes", function() {
             "time" : "8:00",
             "days" : [ "Monday" ]
         });
+        expect(Routes.firstDepartureInRoute("Route B", "One", "7:50A", "Monday")).toEqual({});
     });
 
     it("gets the first arrival from a stop", function () {
