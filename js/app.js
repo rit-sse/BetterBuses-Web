@@ -1,13 +1,24 @@
 // Declare app level module
 angular.module("BetterBusesApp", [])
-    .controller("StopListController", function ($scope, $http) {
-        $scope.loadState = "loading";
-        $http.get("data/schedule.json").success(function (data) {
-            Schedule.data = data;
+    .service("schedule", function ($q, $http) {
+        this.stops = function () {
+            var deferred = $q.defer();
 
-            $scope.stops = Schedule.stops();
+            $http.get("data/schedule.json").success(function (data) {
+                Schedule.data = data;
+                deferred.resolve(Schedule.stops());
+            }).error(function () {
+                deferred.reject();
+            });
+
+            return deferred.promise;
+        };
+    }).controller("StopListController", function ($scope, schedule) {
+        $scope.loadState = "loading";
+        schedule.stops().then(function (data) {
             $scope.loadState = "success";
-        }).error(function () {
+            $scope.stops = data;
+        }, function () {
             $scope.loadState = "failure";
         });
     });
