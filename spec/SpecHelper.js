@@ -2,7 +2,9 @@ beforeEach(function () {
     this.addMatchers({});
 });
 
-Schedule.data = $.parseJSON($.ajax({
+var data = $.parseJSON($.ajax({
     url: "spec/mocks/mock.json",
     async: false
 }).responseText);
+
+var schedule = new Schedule(data);
