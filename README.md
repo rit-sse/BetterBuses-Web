@@ -1,5 +1,7 @@
 #Better Buses
 
+[![Code Climate](https://codeclimate.com/github/rit-sse/BetterBuses-Web.png)](https://codeclimate.com/github/rit-sse/BetterBuses-Web)
+
 A better bus schedule for RIT for a more enlightened time.
 
 ##About
